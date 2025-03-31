@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Thumbnails & logs
+*.log
+*.out
+
+# Accelerator merge or other training logs
+accelerator/merge*
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Node-related (if any)
+node_modules/
+
+# Other things you want to exclude
+*.bak
