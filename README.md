@@ -33,7 +33,7 @@ python -m uvicorn api_gateway.main:app --reload
 
 ##################################################################
         ##################----WORKFLOW----##################
-        
+
 > User initiates a request via /query API:
 $ curl -X POST https://yourdomain.com/query \
   -H "Content-Type: application/json" \
@@ -93,3 +93,11 @@ SELECT COUNT(*) FROM users WHERE last_active >= NOW() - INTERVAL '30 days';
   "db": "postgres/user_metrics"
 }
 ##################################################################
+
+
+
+
+To-DO:
+1. Add logic to extract table name as well
+2. create a file for RAG Prompting and add schema injection
+3. integrate deepseek-ai/deepseek-coder-1.3b-instruct. Working sexy for SQL 
