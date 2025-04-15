@@ -8,7 +8,7 @@ CREATE TABLE `movies_genres` (
   `genre` VARCHAR(61)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/movies_genres.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/movies_genres.csv'
 INTO TABLE `movies_genres`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -22,7 +22,7 @@ CREATE TABLE `directors_genres` (
   `prob` FLOAT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/directors_genres.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/directors_genres.csv'
 INTO TABLE `directors_genres`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -35,7 +35,7 @@ CREATE TABLE `movies_directors` (
   `movie_id` INT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/movies_directors.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/movies_directors.csv'
 INTO TABLE `movies_directors`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -50,7 +50,7 @@ CREATE TABLE `actors` (
   `gender` VARCHAR(51)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/actors.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/actors.csv'
 INTO TABLE `actors`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -64,7 +64,7 @@ CREATE TABLE `roles` (
   `role` VARCHAR(80)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/roles.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/roles.csv'
 INTO TABLE `roles`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -78,7 +78,7 @@ CREATE TABLE `directors` (
   `last_name` VARCHAR(76)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/directors.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/directors.csv'
 INTO TABLE `directors`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -93,7 +93,7 @@ CREATE TABLE `movies` (
   `rank` FLOAT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/imdb_ijs_csv/movies.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/imdb_ijs_csv/movies.csv'
 INTO TABLE `movies`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'

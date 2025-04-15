@@ -8,7 +8,7 @@ CREATE TABLE `content` (
   `word_cited_id` VARCHAR(58)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/CORA_csv/content.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/CORA_csv/content.csv'
 INTO TABLE `content`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -21,7 +21,7 @@ CREATE TABLE `cites` (
   `citing_paper_id` INT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/CORA_csv/cites.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/CORA_csv/cites.csv'
 INTO TABLE `cites`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -34,7 +34,7 @@ CREATE TABLE `paper` (
   `class_label` VARCHAR(72)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/CORA_csv/paper.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/CORA_csv/paper.csv'
 INTO TABLE `paper`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'

@@ -15,7 +15,7 @@ class QueryGenerator:
         self.model = "deepseek-ai/DeepSeek-R1"
         print(f"✅ Using DeepSeek-R1 via Hugging Face API")
 
-    def extract_dbms(self, nl_query):
+    def extract_dbms(self, nl_query): # add logic to extract db name and send it to executor alongside db type
         """
         Extracts the database type (MySQL or MongoDB) from the user's input.
         Supports cases where the DBMS is mentioned at the beginning or end.

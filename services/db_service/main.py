@@ -10,11 +10,23 @@ class QueryService:
         :return: Query execution result or error
         """
         dbms_type, generated_query = query_generator.generate_query(nl_query)
+        # add logic to get db name
         if dbms_type == "mysql":
             return sql_executor.execute_query(generated_query)
         # elif dbms_type == "mongodb":
         #     return mongo_executor.execute_query(generated_query)
         else:
             return generated_query  # Returns error message if DBMS type is unsupported
+
+    #####################################
+    ######<<<<<THIS IS A TEST FUNCTION TO TEST QUERY IS BEING EXECUTED >>>>>######
+    def test_db_query(self, raw_sql: str):
+        """
+        Directly executes a raw SQL query (for testing).
+        :param raw_sql: Raw SQL string
+        :return: Execution result
+        """
+        return sql_executor.execute_query(raw_sql)
+
 
 query_service = QueryService()

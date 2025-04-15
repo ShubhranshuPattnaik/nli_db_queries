@@ -10,7 +10,7 @@ CREATE TABLE `client` (
   `district_id` INT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/client.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/client.csv'
 INTO TABLE `client`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -31,7 +31,7 @@ CREATE TABLE `trans` (
   `account` FLOAT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/trans.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/trans.csv'
 INTO TABLE `trans`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -58,7 +58,7 @@ CREATE TABLE `district` (
   `A16` INT
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/district.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/district.csv'
 INTO TABLE `district`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -73,7 +73,7 @@ CREATE TABLE `account` (
   `date` DATE
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/account.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/account.csv'
 INTO TABLE `account`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -88,7 +88,7 @@ CREATE TABLE `card` (
   `issued` DATE
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/card.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/card.csv'
 INTO TABLE `card`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -106,7 +106,7 @@ CREATE TABLE `loan` (
   `status` VARCHAR(51)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/loan.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/loan.csv'
 INTO TABLE `loan`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -123,7 +123,7 @@ CREATE TABLE `order` (
   `k_symbol` VARCHAR(58)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/order.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/order.csv'
 INTO TABLE `order`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
@@ -138,7 +138,7 @@ CREATE TABLE `disp` (
   `type` VARCHAR(59)
 );
 
-LOAD DATA LOCAL INFILE '/home/rahul/usc/spring25/551/project/nli_db_queries/financial_csv/disp.csv'
+LOAD DATA LOCAL INFILE '/Users/shubhranshupattnaik/Desktop/551/project_551/financial_csv/disp.csv'
 INTO TABLE `disp`
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
