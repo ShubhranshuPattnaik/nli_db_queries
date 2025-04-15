@@ -101,3 +101,26 @@ To-DO:
 1. Add logic to extract table name as well
 2. create a file for RAG Prompting and add schema injection
 3. integrate deepseek-ai/deepseek-coder-1.3b-instruct. Working sexy for SQL 
+
+
+Prompt: 
+def build_prompt(nl_question: str, schema: str) -> str:
+    return f"""
+You are an AI assistant that generates SQL queries based on user questions and the available database schema.
+
+Use correct table and column names. Write syntactically correct SQL. Don't guess if the column doesn't exist.
+
+---
+
+📦 DATABASE SCHEMA:
+{schema}
+
+---
+
+💬 USER QUESTION:
+{nl_question}
+
+---
+
+🧾 SQL QUERY:
+""".strip()

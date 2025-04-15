@@ -1,32 +1,43 @@
 from services.db_service.sql_executor import sql_executor
-# from services.db_service.mongo_executor import mongo_executor
+from services.db_service.mongo_executor import mongo_executor
 from services.chatbot_service.main import query_generator
 
 class QueryService:
     def process_query(self, nl_query):
         """
-        Processes a natural language query by determining DBMS, generating a query, and executing it.
-        :param nl_query: The natural language query (including DBMS)
-        :return: Query execution result or error
+        Processes a natural language query by generating and executing a query for SQL or MongoDB.
         """
-        dbms_type, generated_query = query_generator.generate_query(nl_query)
-        # add logic to get db name
-        if dbms_type == "mysql":
-            return sql_executor.execute_query(generated_query)
-        # elif dbms_type == "mongodb":
-        #     return mongo_executor.execute_query(generated_query)
-        else:
-            return generated_query  # Returns error message if DBMS type is unsupported
+        dbms_type, db_name, generated_query = query_generator.generate_query(nl_query)
 
-    #####################################
-    ######<<<<<THIS IS A TEST FUNCTION TO TEST QUERY IS BEING EXECUTED >>>>>######
-    def test_db_query(self, raw_sql: str):
-        """
-        Directly executes a raw SQL query (for testing).
-        :param raw_sql: Raw SQL string
-        :return: Execution result
-        """
-        return sql_executor.execute_query(raw_sql)
+        if isinstance(generated_query, dict) and "error" in generated_query:
+            return generated_query
 
+        if dbms_type == "sql":
+            return sql_executor.execute_query(generated_query, db_name=db_name)
+        elif dbms_type == "mongo":
+            return mongo_executor.execute_query(generated_query, db_name=db_name)
+
+        return {"error": "Unsupported DBMS or database"}
+
+
+    ## Test Function for query executor
+    def test_db_query(self, raw_query: str, db_name: str = None, dbms_type: str = "sql"):
+        """
+        Directly executes a raw SQL or MongoDB query (for testing).
+        """
+        if dbms_type == "sql":
+            return sql_executor.execute_query(raw_query, db_name=db_name)
+        elif dbms_type == "mongo":
+            return mongo_executor.execute_query(raw_query, db_name=db_name)
+        return {"error": "Unsupported DBMS"}
+    
+    ## ✅ NEW: Test LLM Output Only
+    def test_llm_query(self, nl_query: str):
+        dbms_type, db_name, generated_query = query_generator.generate_query(nl_query)
+        return {
+            "dbms_type": dbms_type,
+            "db_name": db_name,
+            "llm_query": generated_query
+        }
 
 query_service = QueryService()

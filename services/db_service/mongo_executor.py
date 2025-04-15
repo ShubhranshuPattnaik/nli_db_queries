@@ -1,6 +1,6 @@
-# from pymongo import MongoClient
-# from config.config import Config
-# import json
+from pymongo import MongoClient
+from config.config import Config
+import json
 
 # class MongoExecutor:
 #     def __init__(self):
@@ -18,4 +18,14 @@
 #         except Exception as e:
 #             return {"error": str(e)}
 
-# mongo_executor = MongoExecutor()
+class MongoExecutor: ## Remove When mongo is connected. Use the above script
+    def execute_query(self, query, db_name=None):
+        return {
+            "message": "MongoDB support not yet enabled.",
+            "query": query,
+            "db_name": db_name
+        }
+
+mongo_executor = MongoExecutor()
+
+mongo_executor = MongoExecutor()

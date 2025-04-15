@@ -7,19 +7,33 @@ class MySQLExecutor:
             host=Config.MYSQL["host"],
             user=Config.MYSQL["user"],
             password=Config.MYSQL["password"],
-            database=Config.MYSQL["database"]
+            port=Config.MYSQL["port"]
+            # ❌ removed 'database' — we’ll switch dynamically
         )
         self.cursor = self.connection.cursor(dictionary=True)
 
-    def execute_query(self, query):
+    def execute_query(self, query, db_name=None):
+        """
+        Executes a SQL query. Optionally selects the DB using USE <db_name>.
+        """
         try:
-            print("=======",query )
+            print("📥 Received query:", query)
+            if db_name:
+                print(f"🔀 Switching to database: {db_name}")
+                self.cursor.execute(f"USE {db_name}")
+
             self.cursor.execute(query)
-            if query.lower().startswith("select"):
-                return self.cursor.fetchall()
+
+            if query.strip().lower().startswith("select"):
+                results = self.cursor.fetchall()
+                print(f"✅ Returned {len(results)} rows")
+                return results
+
             self.connection.commit()
             return {"status": "success"}
+
         except Exception as e:
-            return query
+            print(f"❌ Error during SQL execution: {str(e)}")
+            return {"error": str(e), "query": query}
 
 sql_executor = MySQLExecutor()

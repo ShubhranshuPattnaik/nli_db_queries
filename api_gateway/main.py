@@ -10,6 +10,11 @@ class QueryRequest(BaseModel):
 
 class SQLTestRequest(BaseModel):
     raw_sql: str
+    db_name: str | None = None
+    dbms_type: str = "sql"
+
+class LLMTestRequest(BaseModel):
+    nl_query: str
 
 @app.get("/")
 def home():
@@ -30,11 +35,12 @@ def query_database(request: QueryRequest):
 #### THIS IS A TEST API TO TEST DB EXECUTION ####
 @app.post("/test_db/")
 def test_raw_sql(request: SQLTestRequest):
-    """
-    API endpoint to test raw SQL query execution (bypasses LLM).
-    """
     try:
-        result = query_service.test_db_query(request.raw_sql)
+        result = query_service.test_db_query(
+            raw_query=request.raw_sql,
+            db_name=request.db_name,
+            dbms_type=request.dbms_type
+        )
         return {
             "status": "success",
             "executed_query": request.raw_sql,
@@ -42,3 +48,20 @@ def test_raw_sql(request: SQLTestRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"SQL Execution Error: {str(e)}")
+        
+######################################
+#### THIS IS A TEST API TO TEST LLM RESPONSE ####
+@app.post("/test_llm/")
+def test_llm_response(request: LLMTestRequest):
+    """
+    API endpoint to test LLM-generated query without executing it.
+    """
+    try:
+        result = query_service.test_llm_query(request.nl_query)
+        return {
+            "status": "success",
+            "nl_query": request.nl_query,
+            "llm_result": result
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"LLM Generation Error: {str(e)}")
