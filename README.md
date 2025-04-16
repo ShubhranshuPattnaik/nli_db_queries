@@ -96,10 +96,10 @@ SELECT COUNT(*) FROM users WHERE last_active >= NOW() - INTERVAL '30 days';
 
 ## Running Locally
 
-This project uses [Ollama](https://ollama.com) to run the `deepseek-coder:1.3b-instruct` model locally.
+This project uses [Ollama](https://ollama.com) to run the `llama3t` model locally.
 
 1. Install Ollama from https://ollama.com.
-2. Start the server and pull the model:
+2. Start the server and pull the model: ollama run llama3
 3. Make sure Ollama is running at `http://localhost:11434`.
 4. Install Python dependencies:
 

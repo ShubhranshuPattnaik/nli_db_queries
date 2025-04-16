@@ -6,7 +6,8 @@ from services.chatbot_service.schema_loader import SchemaLoader
 
 class QueryGenerator:
     def __init__(self, schema_loader):
-        self.model = "deepseek-coder:1.3b-instruct"
+        # self.model = "deepseek-coder:1.3b-instruct"
+        self.model = "llama3"
         self.api_url = "http://localhost:11434/api/generate"
         self.schema_loader = schema_loader
         print(f"✅ Using {self.model} via local Ollama")
@@ -14,7 +15,7 @@ class QueryGenerator:
     def extract_info(self, nl_query):
         dbms_match = re.search(r"\b(mysql|mongodb|sql)\b", nl_query, re.IGNORECASE)
         db_match = re.search(r"\b(CORA|financial|imdb_ijs)\b", nl_query, re.IGNORECASE)
-        table_match = re.search(r"(from|table|into)\s+([a-zA-Z_][a-zA-Z0-9_]*)", nl_query, re.IGNORECASE)
+        table_match = re.search(r"\btable-([a-zA-Z_][a-zA-Z0-9_]*)", nl_query, re.IGNORECASE)
 
         dbms_raw = dbms_match.group(1).lower() if dbms_match else None
         dbms_type = (
@@ -24,14 +25,14 @@ class QueryGenerator:
         )
 
         db_name = db_match.group(1).lower() if db_match else None
-        table_name = table_match.group(2).lower() if table_match else None
+        table_name = table_match.group(1).lower() if table_match else None
 
         cleaned_query = re.sub(r"\b(mysql|mongodb|CORA|financial|imdb_ijs)\b", "", nl_query, flags=re.IGNORECASE).strip()
         return dbms_type, db_name, table_name, cleaned_query
 
     def build_sql_prompt(self, nl_question, schema):
         return f"""
-You are an AI assistant that generates SQL queries based on user questions and the available database schema.
+You are an Expert data engineer that generates the most optimised SQL queries based on user questions and the available database schema.
 
 Use correct table and column names. Write syntactically correct SQL. Don't guess if the column doesn't exist.
 
@@ -133,9 +134,9 @@ Return only this JSON: {{ "query": "<MONGO_QUERY>" }}. Do not explain anything.
             known_columns = []  # (optional) you can parse them from schema if needed
 
             prompt = (
-                self.build_sql_prompt(cleaned_query, schema)
+                self.build_sql_prompt(nl_query, schema)
                 if dbms_type == "sql"
-                else self.build_mongo_prompt(cleaned_query, schema)
+                else self.build_mongo_prompt(nl_query, schema)
             )
 
             print("\n📤 PROMPT SENT TO LLM:\n", prompt)
@@ -152,18 +153,19 @@ Return only this JSON: {{ "query": "<MONGO_QUERY>" }}. Do not explain anything.
 
             extracted_query = self.extract_query_from_response(response_text)
             print("🧾 Extracted Query:", extracted_query)
+            extracted_query = ' '.join(extracted_query.split()) #inline sanitization for removing white spaces
 
             # 🧠 Auto-fix hallucinated output
-            cleaned_query = self.auto_fix_query(extracted_query)
+            # cleaned_query = self.auto_fix_query(extracted_query)
 
             # ✅ Optional: block hallucinated queries
-            if not self.sanity_check(cleaned_query, known_tables, known_columns):
-                return dbms_type, db_name, {
-                    "error": "Detected hallucinated or invalid table names.",
-                    "query": cleaned_query
-                }
+            # if not self.sanity_check(cleaned_query, known_tables, known_columns):
+            #     return dbms_type, db_name, {
+            #         "error": "Detected hallucinated or invalid table names.",
+            #         "query": cleaned_query
+            #     }
 
-            return dbms_type, db_name, cleaned_query
+            return dbms_type, db_name, extracted_query
 
         except Exception as e:
             return None, None, {"error": f"Failed to generate query: {str(e)}"}
