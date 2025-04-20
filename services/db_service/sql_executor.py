@@ -40,7 +40,9 @@ def rewrite_problematic_subqueries(sql_query):
                 if isinstance(in_node.args.get("expressions"), exp.Subquery):
                     subquery_expr = in_node.args["expressions"].args.get("this")
 
-                    if isinstance(subquery_expr, exp.Select) and subquery_expr.args.get("limit"):
+                    if isinstance(
+                        subquery_expr, exp.Select
+                    ) and subquery_expr.args.get("limit"):
                         print("🔁 Rewriting IN + LIMIT subquery to JOIN")
 
                         # Extract the first column used in the subquery
@@ -48,21 +50,18 @@ def rewrite_problematic_subqueries(sql_query):
 
                         # Alias the subquery as a derived table
                         subquery_alias = exp.Alias(
-                            this=subquery_expr,
-                            alias=exp.to_identifier("sub")
+                            this=subquery_expr, alias=exp.to_identifier("sub")
                         )
 
                         # Build join condition: original_column = subquery_column
                         join_condition = exp.EQ(
                             this=in_node.args["this"],
-                            expression=exp.column("sub", subquery_column.name)
+                            expression=exp.column("sub", subquery_column.name),
                         )
 
                         # Replace IN expression with a JOIN
                         join = exp.Join(
-                            this=subquery_alias,
-                            on=join_condition,
-                            kind="INNER"
+                            this=subquery_alias, on=join_condition, kind="INNER"
                         )
 
                         # Remove the original WHERE ... IN(...) condition
@@ -90,7 +89,7 @@ class MySQLExecutor:
             host=Config.MYSQL["host"],
             user=Config.MYSQL["user"],
             password=Config.MYSQL["password"],
-            port=Config.MYSQL["port"]
+            port=Config.MYSQL["port"],
         )
         self.cursor = self.connection.cursor(dictionary=True)
 
@@ -106,7 +105,10 @@ class MySQLExecutor:
                     print("✅ Query fixed by sqlglot:", fixed_query)
                     query = fixed_query
                 else:
-                    return {"error": "SQL syntax is invalid and could not be fixed.", "query": query}
+                    return {
+                        "error": "SQL syntax is invalid and could not be fixed.",
+                        "query": query,
+                    }
 
             # Step 2: Rewrite AST to fix incompatible structures
             rewritten_query = rewrite_problematic_subqueries(query)

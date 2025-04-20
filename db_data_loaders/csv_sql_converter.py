@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from utils import Path_Handler as ph
 
 
 db_names: list[str] = [
@@ -7,29 +8,35 @@ db_names: list[str] = [
     "financial",
     "CORA",
 ]
-for db_name in db_names:
+csv_folder_paths: list = [
+    ph.imdb_csv_folder_PATH,
+    ph.financial_csv_folder_PATH,
+    ph.cora_csv_folder_PATH,
+]
+
+
+def infer_sql_type(series):
+    if pd.api.types.is_integer_dtype(series):
+        return "INT"
+    elif pd.api.types.is_float_dtype(series):
+        return "FLOAT"
+    elif pd.api.types.is_bool_dtype(series):
+        return "BOOLEAN"
+    elif pd.api.types.is_datetime64_any_dtype(series):
+        return "DATETIME"
+    else:
+        max_len = series.astype(str).str.len().max()
+        return f"VARCHAR({int(max_len) + 50 if not pd.isna(max_len) else 255})"
+
+
+for db_name, input_folder in zip(db_names, csv_folder_paths):
     # Input folder with CSVs
-    input_folder = f"{db_name}_csv"
+    # input_folder = f"{db_name}_csv"
     # Output SQL file
-    output_sql_file = f"{db_name}_data.sql"
+    output_sql_file = f"{ph.db_data_loaders_PATH}/{db_name}_data.sql"
 
     if os.path.exists(output_sql_file):
         os.remove(output_sql_file)
-
-    def infer_sql_type(series):
-        if pd.api.types.is_integer_dtype(series):
-            return "INT"
-        elif pd.api.types.is_float_dtype(series):
-            return "FLOAT"
-        elif pd.api.types.is_bool_dtype(series):
-            return "BOOLEAN"
-        elif pd.api.types.is_datetime64_any_dtype(series):
-            return "DATETIME"
-        else:
-            max_len = series.astype(str).str.len().max()
-            return (
-                f"VARCHAR({int(max_len) + 50 if not pd.isna(max_len) else 255})"
-            )
 
     with open(output_sql_file, "w", encoding="utf-8") as sql_file:
         sql_file.write(f"CREATE DATABASE IF NOT EXISTS `{db_name}`;\n\n")

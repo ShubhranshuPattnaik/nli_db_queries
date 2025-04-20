@@ -1,0 +1,3509 @@
+id,first_name,last_name,gender
+5,Antonio,'El de Chipiona',M
+78,Tørres,Aadland,M
+92,Lee,Aaker,M
+150,Brian,Aaron,M
+172,Sam (I),Aaron,M
+194,Karl Johan,Aarsæther,M
+249,Ignasi,Abadal,M
+270,Dimitar,Abadzhiev,M
+373,Gassan,Abbas,M
+395,Stefano,Abbati,M
+473,Jack,Abbott,M
+480,John (I),Abbott,M
+545,Pavel,Abdalov,M
+713,Aleksandr,Abdulov,M
+756,Nômaru,Abe,M
+784,Ramzi,Abed,M
+810,Ingo,Abel,M
+831,Walter,Abel,M
+949,Mikhail,Abesadze,M
+962,Franziskus,Abgottspon,M
+980,Zaenal,Abidin,M
+1019,Albert,Able,M
+1088,Oulage,Abour,M
+1108,Falconer,Abraham,M
+1176,Peter,Abrahamson,M
+1232,Zachary Scott,Abramowitz,M
+1311,Fidel,Abrego,M
+1326,Danny,Abreu,M
+1388,Lee,Absolom,M
+1391,Ab,Abspoel,M
+1407,Ahmad,Abu Sal'oum,M
+1440,Yousef,Abuhamdeh,M
+1508,Luis,Accinelli,M
+1526,Stefano,Accorsi,M
+1563,Ricardo,Acero,M
+1599,Luis,Aceves Castañeda,M
+1618,Olivier,Achard,M
+1637,James (II),Acheson,M
+1694,Dejan,Acimovic,M
+1718,Bruce,Ackerman,M
+1722,Forrest J,Ackerman,M
+1763,Joss,Ackland,M
+1769,David,Ackles,M
+1792,Wolf,Ackva,M
+1809,Art,Acord,M
+1822,Armando (I),Acosta,M
+1859,Juan,Acosta,M
+1877,Rodolfo (I),Acosta,M
+1890,Jay,Acovone,M
+1891,Antonio,Acqua,M
+1893,Francesco,Acquaroli,M
+1919,Wallace,Acton,M
+1927,Eddie,Acuff,M
+1960,Aleksandr,Adabashyan,M
+1994,Jack,Adair,M
+2003,Robert,Adair,M
+2005,Robyn,Adair,M
+2024,Ricardo,Adalid,M
+2035,Dietrich,Adam,M
+2073,Tim,Adam,M
+2078,Blair Kenneth,Adamache,M
+2162,Arthur (I),Adams,M
+2200,Casey (I),Adams,M
+2229,Dave (I),Adams,M
+2251,Don (I),Adams,M
+2264,Ed (I),Adams,M
+2270,Ernie (I),Adams,M
+2381,Lionel,Adams,M
+2384,Lowden,Adams,M
+2399,Mason,Adams,M
+2407,Michael (VI),Adams,M
+2506,Tom (I),Adams,M
+2522,W.L.,Adams,M
+2557,Frank (I),Adamson,M
+2583,Victor,Adamson,M
+2600,Rafi,Adar,M
+2726,Otto,Adelby,M
+2949,Jay,Adler,M
+2966,Matt,Adler,M
+2978,Robert (I),Adler,M
+3049,Frank,Adonis,M
+3100,Max,Adrian,M
+3140,Robinson Frank,Adu,M
+3225,Ben,Affleck,M
+3267,Kleber,Afonso,M
+3336,John,Agar,M
+3355,Bram,Agaston,M
+3414,Jim,Agenbroad,M
+3451,John,Aggrey,M
+3556,Franco,Agostini,M
+3566,Carlos,Agostí,M
+3709,Antonio (I),Aguilar,M
+3741,Gustavo,Aguilar,M
+3805,Francisco,Aguilera,M
+3855,José Luis (I),Aguirre,M
+3906,Gábor,Agárdi,M
+3971,Tim,Ahern,M
+3974,Brian,Aherne,M
+4043,Börje,Ahlstedt,M
+4153,Byeong-kyeong,Ahn,M
+4212,Olavi,Ahonen,M
+4261,Pena,Ahtonen,M
+4297,Claude,Aichele,M
+4382,Robert,Aiken,M
+4400,Alvin,Ailey,M
+4421,Raymond,Aimos,M
+4464,Sidney,Ainsworth,M
+4465,Stewart,Ainsworth,M
+4548,Spottiswoode,Aitken,M
+4553,Michael,Aitkin,M
+4591,Fabien,Ajavon,M
+4610,Denis,Ajeti,M
+4613,Abdellah,Ajil,M
+4637,Shoichiro,Akaboshi,M
+4654,Takayuki,Akaike,M
+4671,Tarik,Akan,M
+4758,William,Akey,M
+4782,Ruslan,Akhmetov,M
+4820,David,Akin,M
+4824,Philip,Akin,M
+4846,Claude,Akins,M
+4882,Moustapha,Akkad,M
+4893,Nageshwara Rao,Akkineni,M
+4912,Erich,Akman,M
+4941,Ashot,Akopyan,M
+4960,Bakhram,Akramov,M
+5007,Voldemar,Akuraters,M
+5138,Wojciech,Alaborski,M
+5142,Carl,Alacchi,M
+5178,Steve (I),Alaimo,M
+5375,Zeki,Alasya,M
+5434,Jaime,Alba,M
+5529,Ardenia,Albarida,M
+5530,Damon,Albarn,M
+5531,Juan Maria,Albarracin,M
+5538,Gerardo,Albarrán,M
+5587,Luis,Alberni,M
+5599,Hans,Albers,M
+5626,Eddie,Albert,M
+5627,Edward (I),Albert,M
+5661,Larry,Albert,M
+5670,Otis Walter,Albert,M
+5774,Frank (I),Albertson,M
+5791,José,Albiach,M
+5876,Dan,Albright,M
+5890,Wally,Albright,M
+5914,José,Alburquerque,M
+5925,Chris,Alcaide,M
+5968,Eduardo,Alcaraz,M
+6058,Jamie (I),Alcroft,M
+6068,Pedro,Alcántara,M
+6069,Rafael,Alcántara,M
+6096,Robert,Alda,M
+6131,David,Aldar,M
+6136,Caloy,Alde,M
+6206,Anthony,Aldermann,M
+6213,Erville,Alderson,M
+6263,Frank,Aldrich,M
+6265,Henry (II),Aldrich,M
+6341,Leopoldo,Alegret,M
+6367,Mac,Alejandro,M
+6379,Henri,Alekan,M
+6402,Georgi,Aleksandrov,M
+6416,Rodion,Aleksandrov,M
+6448,Mikhail (II),Alekseyev,M
+6478,Yordan,Aleksiev,M
+6513,Julio,Alemán,M
+6528,Alexandre,Alencastro,M
+6534,Aki,Aleong,M
+6553,Frank,Alesia,M
+6598,Everett,Alex,M
+6619,Alex (IV),Alexander,M
+6630,Ben (I),Alexander,M
+6649,Chaim,Alexander,M
+6672,David (IV),Alexander,M
+6679,David James,Alexander,M
+6706,Ernie (I),Alexander,M
+6711,Flex,Alexander,M
+6712,Frank (I),Alexander,M
+6762,Jason (I),Alexander,M
+6772,John (I),Alexander,M
+6809,Louis (I),Alexander,M
+6828,Michael (VI),Alexander,M
+6836,Monty,Alexander,M
+6870,Richard (I),Alexander,M
+6900,Sasho,Alexander,M
+6936,Victor (IV),Alexander,M
+6969,Manuel,Alexandre,M
+6997,Roma,Alexandrovitch,M
+7025,Nikos,Alexiou,M
+7029,Andrés,Alexis,M
+7112,Joe,Alfonsie,M
+7114,Antonio,Alfonso,M
+7141,José Luis,Alfonzo,M
+7170,Mark,Alfred,M
+7215,Henrik,Algestam,M
+7218,Francisco,Algora,M
+7290,Hasani,Ali,M
+7322,Muhammad,Ali,M
+7355,Tarik,Ali,M
+7399,Gadji,Alibo,M
+7422,Slobodan,Aligrudic,M
+7558,Mark,Alkofer,M
+7779,Alfred,Allen,M
+7811,Byron,Allen,M
+7855,Colin (I),Allen,M
+7902,Donald V.,Allen,M
+7918,Edgar,Allen,M
+7930,Ethan (II),Allen,M
+7966,Harry (I),Allen,M
+8041,Keith (I),Allen,M
+8152,Rex,Allen,M
+8164,Richard R.,Allen,M
+8251,Tim (I),Allen,M
+8274,Victor,Allen,M
+8282,Weldon,Allen,M
+8359,Tony,Alleyne,M
+8365,Billy Joe,Allgood,M
+8410,Bart,Allison,M
+8450,Claud,Allister,M
+8568,Fernando,Almada,M
+8579,Mário,Almada,M
+8599,James,Almanzar,M
+8617,Randy,Almazon,M
+8714,Luigi,Almirante,M
+8721,Charlie,Almlöf,M
+8725,Agustín,Almodóvar,M
+8728,Pedro,Almodóvar,M
+8750,Antonio,Almorós,M
+8757,Gunnar,Almqvist,M
+8768,Sándor,Almási,M
+8844,Emilio (II),Alonso,M
+8862,José (I),Alonso,M
+8895,Rafael,Alonso,M
+8896,Ramiro,Alonso,M
+8963,Murray,Alper,M
+9132,Tullio,Altamura,M
+9229,Nuri,Altinok,M
+9246,Bruce,Altman,M
+9259,John (II),Altman,M
+9310,Martín,Altomaro,M
+9394,Horácio,Alvarado Ortíz,M
+9431,Max,Alvarado,M
+9443,Daniel,Alvaredo,M
+9493,Henry,Alvarez,M
+9505,José (I),Alvarez,M
+9538,Roy,Alvarez,M
+9552,Dan,Alvaro,M
+9574,Phillip,Alver,M
+9617,Elk,Alves,M
+9623,Geraldo,Alves,M
+9624,Gilberto,Alves,M
+9643,Luiz,Alves,M
+9708,Marcus,Alvisi,M
+9732,Osman,Alyanak,M
+9793,Adrian,Amadeus,M
+9827,Rafael,Amador,M
+9935,Henrique,Amaral,M
+10046,Nicolas,Amato,M
+10066,Bin,Amatsu,M
+10121,Douglas,Ambert,M
+10136,Joss,Ambler,M
+10200,Philippe,Ambrosini,M
+10241,Rafi,Ameer,M
+10342,Gerald,Ames,M
+10351,Leon,Ames,M
+10368,John,Amess,M
+10371,Alfredo,Amestoy,M
+10409,Vincenzo,Amici,M
+10437,Wayne,Amiel,M
+10443,Juan,Amigo,M
+10456,Amule,Amin,M
+10522,George,Amis,M
+10569,Tom,Ammiano,M
+10634,Tony,Amoni,M
+10674,Murilo,Amorim Correia,M
+10730,Michael,Amos,M
+10740,Fasitua,Amosa,M
+10760,John,Amplas,M
+10775,Sadashiv,Amrapurkar,M
+10776,Markus,Amrein,M
+10846,Valdir,Amâncio,M
+10877,Gregory,Anaguritsi,M
+10894,Dev,Anand,M
+10902,Mahesh,Anand,M
+10912,Tinnu,Anand,M
+11035,Leo,Anchóriz,M
+11047,Jorge,Ancira,M
+11063,David,Andar,M
+11066,Michael,Ande,M
+11127,Kaleo,Anders,M
+11140,Rudolph,Anders,M
+11160,Asbjørn,Andersen,M
+11227,John (III),Andersen,M
+11307,Tobias,Andersen,M
+11316,Wies,Andersen,M
+11323,Haskell V.,Anderson III,M
+11349,Andy (II),Anderson,M
+11350,Andy (IX),Anderson,M
+11408,C.E.,Anderson,M
+11488,Devon,Anderson,M
+11501,Eddie 'Rochester',Anderson,M
+11548,George (VI),Anderson,M
+11555,Gilbert M. 'Broncho Billy',Anderson,M
+11576,Harry (II),Anderson,M
+11599,James (I),Anderson,M
+11633,John (I),Anderson,M
+11692,Larry (I),Anderson,M
+11718,Marc (II),Anderson,M
+11733,Matt (II),Anderson,M
+11836,Robert (V),Anderson,M
+11854,Russ (I),Anderson,M
+11865,Scott G.,Anderson,M
+11881,Stanley,Anderson,M
+11947,Warner,Anderson,M
+11948,Wayne (I),Anderson,M
+11953,William (I),Anderson,M
+12151,N.,Andjaparidze,M
+12159,Milos,Andjic,M
+12181,Ivan,Andonov,M
+12238,José (I),Andrade,M
+12246,Manuel (I),Andrade,M
+12258,Silas,Andrade,M
+12328,Elias,Andreato,M
+12350,Damir,Andrei,M
+12356,Paul,Andrei,M
+12358,Valerio,Andrei,M
+12415,Herb,Andress,M
+12476,Anthony (I),Andrews,M
+12488,Brian (I),Andrews,M
+12507,Dana,Andrews,M
+12600,Naveen,Andrews,M
+12631,Réal,Andrews,M
+12638,Stanley (I),Andrews,M
+12668,Boris (I),Andreyev,M
+12695,Miodrag,Andric,M
+12810,Leonard,Andrzejewski,M
+12825,Bert,André,M
+12902,Valeriano,Andrés,M
+12916,Kazushi,Andô,M
+12929,Antonio,Anelli,M
+12976,Bernardino,Angel,M
+12995,Kelan,Angel,M
+12996,Ken,Angel,M
+13055,Nando,Angelini,M
+13066,Paul,Angelis,M
+13149,Iván (I),Angelusz,M
+13210,Salvador,Anglada,M
+13214,Jean-Hugues,Anglade,M
+13223,Kurt,Angle,M
+13276,Álex,Angulo,M
+13285,Jonathan,Angus,M
+13328,Serafim,Anikeyev,M
+13353,Konstantin,Anisimov,M
+13406,Salil,Ankola,M
+13416,Morris,Ankrum,M
+13427,Noureddine,Annabi,M
+13517,Matt,Anoai,M
+13525,Oleg,Anofriyev,M
+13535,Miguel,Anorve,M
+13556,Gianni,Ansaldi,M
+13562,Alan,Ansara,M
+13631,Eitan,Anshel,M
+13653,Joachim,Ansorge,M
+13660,Edgar,Anstey,M
+13689,Jerzy,Antczak,M
+13776,Gil,Anthony,M
+13793,Jason,Anthony,M
+13811,Joseph (IV),Anthony,M
+13857,Parry,Anthony,M
+13872,Ray (I),Anthony,M
+13901,Tom (IV),Anthony,M
+13969,Benz,Antoine,M
+13970,Daniel,Antoine,M
+13986,Davor (I),Antolic,M
+14002,Ferdinand,Anton,M
+14005,George,Anton,M
+14021,Anthony,Antonacci,M
+14033,Ennio,Antonelli,M
+14066,Dusan,Antonijevic,M
+14087,Larry,Antonino,M
+14103,Jim,Antonio,M
+14114,Lou,Antonio,M
+14147,Angelos,Antonopoulos,M
+14224,Harry,Antrim,M
+14293,Marco (II),Antônio,M
+14363,Perry,Anzilotti,M
+14412,Takeshi,Aono,M
+14443,Sugisaku,Aoyama,M
+14461,Mike,Apaletegui,M
+14474,Raúl,Aparici,M
+14519,Andreas,Apergis,M
+14531,Oscar,Apfel,M
+14564,Sebastian,Apodaca,M
+14584,Marc,Apollonio,M
+14693,Antonio,Appierto,M
+14741,Royce D.,Applegate,M
+14828,Sergei,Apushkin,M
+14841,Ernie,Aquila,M
+14859,Christophe,Aquillon,M
+14886,Marcos,Aquirre,M
+14888,Jean,Aquistapace,M
+14941,Ángel,Aragon,M
+14957,Renato,Aragão,M
+14969,Luis,Aragón,M
+14978,Hirofumi,Arai,M
+15016,YosiYosi,Arakawa,M
+15018,Boris,Arakelov,M
+15060,Hugo,Arana,M
+15091,Ángel,Aranda,M
+15096,Stole,Arandjelovic,M
+15184,Ali-Agber,Arat,M
+15224,Manuel F.,Araujo,M
+15239,Manuel,Aravena,M
+15271,Carlos (II),Araújo,M
+15284,José,Araújo,M
+15303,Reshat,Arbana,M
+15364,Rune,Arbro,M
+15367,Andrew (I),Arbuckle,M
+15372,Roscoe 'Fatty',Arbuckle,M
+15379,Mark,Arbuthnot,M
+15383,Manuel,Arbó,M
+15397,I. Galip,Arcan,M
+15402,Gabriel,Arcand,M
+15500,Harry,Archer,M
+15510,John (I),Archer,M
+15528,Richard (II),Archer,M
+15588,John,Arcilla,M
+15610,Athayde,Arcoverde,M
+15619,Norberto,Arcusín,M
+15641,Franklyn,Ardell,M
+15682,Chuck,Ardezzone,M
+15703,George,Ardisson,M
+15708,Pierre,Arditi,M
+15713,Jake,Arditti,M
+15736,Henry,Ardsley,M
+15795,Ivan,Arelle Aguirre,M
+15816,Rodolfo,Arena,M
+15863,Ekkehard,Arendt,M
+15890,Eddi,Arent,M
+15894,Jens,Arentzen,M
+15938,Robert (I),Arevalo,M
+15944,Wayne,Arey,M
+16011,Victor,Argo,M
+16086,Christian,Arhoff,M
+16115,Enrique (II),Arias,M
+16124,Imanol,Arias,M
+16157,Orhon M.,Ariburnu,M
+16231,Don,Arioli,M
+16244,Ben,Aris,M
+16320,Nizamettin,Ariç,M
+16321,Bruno,Arié,M
+16350,V.,Arkasov,M
+16364,Alan,Arkin,M
+16370,Cüneyt,Arkin,M
+16395,Alfred,Arlais,M
+16412,Richard,Arlen,M
+16434,George,Arliss,M
+16488,Michael (II),Armani,M
+16553,Pedro,Armendáriz,M
+16587,Henry,Armetta,M
+16614,George,Armitage,M
+16650,Keith (I),Armour,M
+16669,Alun,Armstrong,M
+16754,Joe (II),Armstrong,M
+16774,Louis (I),Armstrong,M
+16838,Vaughn,Armstrong,M
+16853,Sidney,Armus,M
+16868,Laurent,Arnal,M
+16880,Arne,Arnardo,M
+16936,Peter Uwe,Arndt,M
+16944,Peter,Arne,M
+17000,Gus,Arnheim,M
+17007,Harry,Arnie,M
+17013,Jacques,Arnna,M
+17032,Billy (I),Arnold,M
+17151,Monroe (I),Arnold,M
+17174,Stacy (II),Arnold,M
+17195,Victor (I),Arnold,M
+17201,William (I),Arnold,M
+17257,Charles,Arnt,M
+17299,Bill,Aron,M
+17433,Alexis,Arquette,M
+17446,Alex,Arquin,M
+17481,David,Arrayet,M
+17507,Antonio,Arrel,M
+17614,Marcelo,Arroita-Jáuregui,M
+17680,Genésio,Arruda,M
+17864,John (III),Arthur,M
+17865,Johnny,Arthur,M
+17944,Michael,Artura,M
+17948,Ashley,Artus,M
+17991,Artur,Arutyunyan,M
+18010,Manuel,Arvide,M
+18076,Aleksandr,Arzhilovsky,M
+18090,Mkrtich,Arzumanyan,M
+18114,Mental,As Anything,M
+18184,Pat,Asanti,M
+18185,Haruo,Asanu,M
+18199,Aram,Asatryan,M
+18268,Andy,Ascione,M
+18301,J.M.,Asensio,M
+18319,Arty,Ash,M
+18347,Sam,Ash,M
+18426,Warren,Ashe,M
+18517,Arthur,Ashley,M
+18529,Edward,Ashley,M
+18532,Gene,Ashley,M
+18588,Shawn,Ashmore,M
+18610,David,Ashton,M
+18622,John (I),Ashton,M
+18644,Warwick,Ashton,M
+18669,Brett,Ashy,M
+18679,Joel,Asikainen,M
+18703,Avraham,Asiyo,M
+18704,Dick,Ask,M
+18736,Luke,Askew,M
+18781,Grégoire,Aslan,M
+18821,Elmo,Asmussen,M
+18876,Toby,Aspin,M
+18910,Ramchana,Asrami,M
+18919,René,Assa,M
+18966,Armand,Asselin,M
+19059,Fred,Astaire,M
+19104,Sean,Astin,M
+19147,Roland,Astor,M
+19186,Leandro,Astudillo,M
+19324,Hooper,Atchley,M
+19350,Roscoe,Ates,M
+19408,William,Atherton,M
+19457,Féodor,Atkine,M
+19506,Peter,Atkins,M
+19542,Fort,Atkinson,M
+19543,Frank (I),Atkinson,M
+19573,Ray,Atkinson,M
+19598,Phil,Atlakson,M
+19607,Jack,Atlantis,M
+19608,Vladimir,Atlantov,M
+19632,Kai,Ato,M
+19713,Richard,Attenborough,M
+19717,Pierre,Atterand,M
+19720,Malcolm,Atterbury,M
+19723,Edward,Atterton,M
+19804,Lionel,Atwill,M
+19873,Rene,Auberjonois,M
+19939,Jimmy,Aubrey,M
+19989,Leonard,Auclair,M
+19990,Michel,Auclair,M
+19993,Brendan,Aucoin,M
+20109,Norbert,Auerbach,M
+20137,Patrick N.,Augare,M
+20162,Albert,Augier,M
+20197,Karel (I),Augusta,M
+20209,Dieter,Augustin,M
+20268,Sherman,Augustus,M
+20287,David,Auker,M
+20290,Daniel,Aukin,M
+20323,Matti,Aulos,M
+20342,Jean-Pierre,Aumont,M
+20375,Marco,Aureli,M
+20444,Peter,Aust,M
+20474,Alan (II),Austin,M
+20497,Dallas,Austin,M
+20519,Frank,Austin,M
+20555,Kenneth,Austin,M
+20568,Matt (I),Austin,M
+20579,Paul (II),Austin,M
+20604,Steve (IV),Austin,M
+20619,Shaun,Austin-Olsen,M
+20624,Claude,Autant-Lara,M
+20661,Alan,Autry,M
+20666,Gene (I),Autry,M
+20688,Maurice,Auzel,M
+20748,Walter,Avancini,M
+20765,István,Avar,M
+20795,Viktor,Avdyushko,M
+20862,Hy,Averback,M
+20908,Charles (I),Avery,M
+20944,Avet,Avetisyan,M
+21038,Shai,Avivi,M
+21063,Richard,Avonde,M
+21073,Cristea,Avram,M
+21174,Henry,Axelrod,M
+21265,Omar,Ayala,M
+21289,Ramia,Ayari,M
+21313,Jim,Aycock,M
+21362,Billy,Ayers,M
+21374,Jeff,Ayers,M
+21391,Tom,Ayers,M
+21412,Dan,Aykroyd,M
+21420,Arthur,Aylesworth,M
+21431,David,Aylmer,M
+21432,Felix,Aylmer,M
+21436,Derek,Aylward,M
+21474,Necdet Mahfi,Ayral,M
+21483,Bryan,Ayres,M
+21492,Jerry,Ayres,M
+21500,Robert (I),Ayres,M
+21592,Paul,Azaïs,M
+21634,Alessandro,Azevedo,M
+21700,Kastriot,Azizaj,M
+21719,Nadir,Azmamedov,M
+21738,Charles,Aznavour,M
+21862,Bjarni,Aðalsteinsson,M
+21921,Thommi,Baake,M
+21932,Wilgo,Baarn,M
+21996,Obba,Babatundé,M
+22030,Raj,Babbar,M
+22187,Chris,Babson,M
+22196,Jagapathi,Babu,M
+22203,Mukund,Babu,M
+22262,Mike,Bacarella,M
+22305,Nino,Bacella,M
+22344,Sebastian (I),Bach,M
+22365,Abhishek,Bachchan,M
+22376,Peter,Bachelier,M
+22561,George (I),Backus,M
+22564,Jim,Backus,M
+22582,Edmund,Bacon,M
+22585,Irving,Bacon,M
+22586,James,Bacon,M
+22592,Lloyd,Bacon,M
+22603,Richard (I),Bacon,M
+22622,Dwight,Bacquie,M
+22625,André,Bacqué,M
+22670,Nicola,Badalucco,M
+22746,Giancarlo,Badessi,M
+22783,Víctor,Badillo,M
+22784,André,Badin,M
+22821,Paul,Badome,M
+22875,Su-cheon,Bae,M
+22896,Han-gi,Baek,M
+22899,Il-seob,Baek,M
+22916,Max,Baer Jr.,M
+22920,Bogdan,Baer,M
+22931,John (I),Baer,M
+22937,Parley,Baer,M
+22995,Omar Alexander,Baez,M
+23047,Raymond,Bagatsing,M
+23066,Tarak,Bagchi,M
+23130,King (I),Baggot,M
+23153,Aristide,Baghetti,M
+23175,Ross (I),Bagley,M
+23178,Scott,Bagley,M
+23219,Silvio,Bagolini,M
+23223,Jean-Pierre,Bagot,M
+23261,Assad,Bahador,M
+23378,Shawn,Baichoo,M
+23395,Ed,Baierlein,M
+23482,Don (I),Bailey,M
+23488,Eion,Bailey,M
+23498,G.W.,Bailey,M
+23519,Jeff (I),Bailey,M
+23536,John (XI),Bailey,M
+23546,Keegan,Bailey,M
+23566,Mark Chandler,Bailey,M
+23598,Robin,Bailey,M
+23604,Scott (II),Bailey,M
+23610,Sherwood,Bailey,M
+23632,William (I),Bailey,M
+23685,Lionel (II),Bailly,M
+23774,Jimmy,Baio,M
+23793,Vonn Scott,Bair,M
+23798,Anthony,Baird,M
+23817,Harry,Baird,M
+23903,Rados,Bajic,M
+23928,Michal,Bajor,M
+23973,Helmut,Bakaitis,M
+24053,Art,Baker,M
+24060,Benny,Baker,M
+24075,Brad (III),Baker,M
+24088,Bubba,Baker,M
+24175,Frank (I),Baker,M
+24195,George (V),Baker,M
+24236,James (IV),Baker,M
+24267,John (IV),Baker,M
+24298,Kenny (I),Baker,M
+24389,Rick (I),Baker,M
+24426,Stanley,Baker,M
+24445,Tom (I),Baker,M
+24446,Tom (II),Baker,M
+24448,Tom (X),Baker,M
+24476,William,Bakewell,M
+24483,Georgi,Bakhchevanov,M
+24598,Imre,Baksa,M
+24608,Ralph,Bakshi,M
+24634,John,Bal,M
+24641,Santiago,Bal,M
+24654,Bob,Balaban,M
+24784,Rasim,Balayev,M
+24982,Franco,Balducci,M
+24992,Dick,Balduzzi,M
+25019,Dannie,Baldwin,M
+25034,Fred (I),Baldwin,M
+25088,Walter,Baldwin,M
+25090,William,Baldwin,M
+25107,Rafael (I),Baledón,M
+25126,Robert,Bales,M
+25164,Eric,Balfour,M
+25166,Michael,Balfour,M
+25174,Bob,Balhatchet,M
+25194,István,Balika,M
+25314,Michael (I),Ball,M
+25332,Vincent (I),Ball,M
+25366,Dario,Ballantini,M
+25390,Elmer,Ballard,M
+25491,Roberto,Ballesteros,M
+25510,Günther,Ballier,M
+25529,Socrates,Ballis,M
+25531,Dieter,Ballmann,M
+25539,Sergio,Ballo,M
+25632,Vladimir,Balon,M
+25644,Antoine,Balpêtré,M
+25697,Ángel María,Baltanás,M
+25699,Claudio,Baltar,M
+25716,Sam,Balter,M
+25810,Lajos,Balázsovits,M
+25825,Jamie,Bamber,M
+25848,George,Bamby,M
+25853,Ernst,Bamert,M
+25869,Gerry,Bamman,M
+25938,Christer,Banck,M
+26023,Antonio,Banderas,M
+26114,Holly,Bane,M
+26143,Victor,Banerjee,M
+26152,Lino,Banfi,M
+26188,Kjetil,Bang-Hansen,M
+26212,Kevin,Bangos,M
+26222,Advent,Bangun,M
+26241,Stefan,Banica,M
+26252,Donatas,Banionis,M
+26276,Nis,Bank-Mikkelsen,M
+26298,Robert,Banks Stewart,M
+26299,Aaron,Banks,M
+26303,Barry,Banks,M
+26328,Ernie,Banks,M
+26348,John (I),Banks,M
+26349,Jonathan,Banks,M
+26353,Leslie,Banks,M
+26465,Ilya,Bannik,M
+26501,Jim (I),Bannon,M
+26634,Sam,Baptista,M
+26635,Álvaro,Baptista,M
+26657,Maurice,Baquet,M
+26704,Sergei,Barabanshchikov,M
+26715,Botond,Barabás,M
+26734,Hüseyin,Baradan,M
+26760,Frank,Barajas,M
+26780,Gábor,Baraker,M
+26935,Paolo,Barbacini,M
+26954,Ron,Barbanell,M
+26998,Marek,Barbasiewicz,M
+27045,Bobby,Barber,M
+27059,Don,Barber,M
+27144,Luis,Barbero,M
+27163,Michel,Barbey,M
+27176,Christian (I),Barbier,M
+27182,George,Barbier,M
+27247,Luis,Barboo,M
+27313,Bruce Paul,Barbour,M
+27372,Jaime,Barcellos,M
+27373,Joel,Barcellos,M
+27412,Artur,Barcis,M
+27428,Don,Barclay,M
+27441,Jerry,Barclay,M
+27472,Roy,Barcroft,M
+27520,Carlos,Bardem,M
+27522,Javier,Bardem,M
+27528,Rafael,Bardem,M
+27540,Trevor,Bardette,M
+27546,Ted,Bardi,M
+27574,Grant,Bardsley,M
+27592,Goran,Bare,M
+27596,Ramón,Barea,M
+27681,Paul (I),Barge,M
+27803,Motti,Barkan,M
+27837,Bradley,Barker,M
+27843,Clive,Barker,M
+27876,Jess,Barker,M
+27888,Lex,Barker,M
+27997,Peter,Barkworth,M
+28039,Andrew (I),Barlow,M
+28052,Dominic,Barlow,M
+28084,Tom,Barlow,M
+28116,Bix,Barnaba,M
+28125,Guglielmo,Barnabò,M
+28138,Ivor,Barnard,M
+28166,Omer,Barnea,M
+28176,Robert,Barner,M
+28185,Alan (V),Barnes,M
+28248,Freeman,Barnes,M
+28289,Justus D.,Barnes,M
+28297,Lorraine,Barnes,M
+28299,Mac,Barnes,M
+28321,Paul (VI),Barnes,M
+28330,Rayford,Barnes,M
+28361,T. Roy (I),Barnes,M
+28375,Walter,Barnes,M
+28382,Charlie,Barnet,M
+28398,Chester,Barnett,M
+28461,Vince,Barnett,M
+28561,Louis,Baron fils,M
+28573,Dick,Baron,M
+28612,Paul (IV),Baron,M
+28644,Paolo,Baroncelli,M
+28722,Diego,Barquinero,M
+28757,Leonard (I),Barr,M
+28774,Tim (I),Barr,M
+28878,Gérard,Barray,M
+28913,Expedito,Barreira,M
+28964,René,Barrera,M
+29040,Bob (I),Barrett,M
+29152,Tim (I),Barrett,M
+29174,Bernabe Barta,Barri,M
+29177,Henry,Barrial,M
+29201,Nigel,Barrie,M
+29288,Enrique (II),Barrios,M
+29385,Robert (I),Barron,M
+29482,Geoff,Barrow,M
+29505,Henry A.,Barrows,M
+29506,James O.,Barrows,M
+29513,William,Barrows,M
+29587,Greg,Barry,M
+29659,Raymond J.,Barry,M
+29691,Tony,Barry,M
+29707,Lionel,Barrymore,M
+29711,William,Barrymore,M
+29716,Alfredo Wally,Barrón,M
+29838,Paul,Bartel,M
+29943,Freddie,Bartholomew,M
+29999,Benny,Bartlett,M
+30141,Allen,Barton,M
+30150,Clay,Barton,M
+30202,Larry,Barton,M
+30323,Rami,Baruch,M
+30491,Rainer,Basedow,M
+30530,Tom (I),Basham,M
+30540,Ismail,Bashey,M
+30572,Alain,Bashung,M
+30578,Ilija,Basic,M
+30580,Relja,Basic,M
+30589,Oleg,Basilashvili,M
+30663,Richard (I),Baskin,M
+30673,Antoine,Basler,M
+30692,Vladimir,Basov,M
+30761,William (II),Bass,M
+30784,Albert,Bassermann,M
+30815,Russell,Bassett,M
+30903,Paul,Bastardo,M
+30938,Giancarlo,Bastianoni,M
+30941,José,Bastida,M
+30953,Laurent,Bastide,M
+30968,Charles,Bastin,M
+30981,John,Baston,M
+31043,Roberto (I),Bataglin,M
+31075,Didier,Batard,M
+31106,Jason,Batchko,M
+31158,James,Bates Jr.,M
+31159,Alan,Bates,M
+31197,Granville,Bates,M
+31226,Les,Bates,M
+31234,Michael (I),Bates,M
+31241,Mychael,Bates,M
+31264,Tom (I),Bates,M
+31329,Dave,Batista,M
+31349,Lourival,Batista,M
+31450,Matt,Battaglia,M
+31457,Richard,Battagna,M
+31490,Gerald,Battiaz,M
+31684,Arthur (II),Bauer,M
+31699,Chris (I),Bauer,M
+31776,Sacha,Bauer,M
+31821,Joseph,Baugniet,M
+31843,Ricardo,Bauleo,M
+31855,Bruce,Baum,M
+32031,Joe,Bausch,M
+32059,Brandon,Bautista,M
+32365,Geoffrey,Bayldon,M
+32392,Matt,Baylis,M
+32399,John (I),Bayliss,M
+32505,Arkadiusz,Bazak,M
+32602,Vicente,Bañó,M
+32615,Adam,Beach,M
+32628,James,Beach,M
+32631,Jim (II),Beach,M
+32700,Frank,Beal,M
+32743,Stephen,Beals,M
+32769,Frank,Beamish,M
+32814,Sean,Bean,M
+32888,Matthew 'Stymie',Beard,M
+32911,James,Bearden,M
+32936,Jon,Bearr,M
+32945,Barney,Beasley,M
+32957,John (I),Beasley,M
+32980,Bruce,Beaton,M
+32997,Aubrey,Beattie,M
+33078,Edmond,Beauchamp,M
+33201,Hugh,Beaumont,M
+33217,Tom,Beaumont,M
+33219,Victor,Beaumont,M
+33222,Michel,Beaune,M
+33255,Jacques,Beauvais,M
+33398,Philip,Bech,M
+33437,William,Bechtel,M
+33458,Billy,Beck,M
+33486,Gad,Beck,M
+33500,Jackson,Beck,M
+33596,Albrecht,Becker,M
+33599,Ben,Becker,M
+33625,Gerry,Becker,M
+33705,Phil,Becker,M
+33811,Bobby,Beckles,M
+33818,Tony,Beckley,M
+33819,Vaughan,Beckley,M
+33912,Don,Beddoe,M
+34001,Daniel,Bedingfield,M
+34014,Stefan,Bednarczyk,M
+34049,Guy,Bedos,M
+34055,Alfonso,Bedoya,M
+34065,Vlastimil,Bedrna,M
+34156,David,Beecroft,M
+34259,Noah,Beery Jr.,M
+34367,Menachem,Begin,M
+34375,Ed (I),Begley,M
+34392,Faruk,Begolli,M
+34463,Rudy,Behlmer,M
+34525,Klaus J.,Behrendt,M
+34648,Yerye,Beirute,M
+34744,Richard,Bekins,M
+34763,Victor,Bekker,M
+34852,Arthur,Belasco,M
+34854,Jay,Belasco,M
+34855,Leon,Belasco,M
+34856,Walter,Belasco,M
+34984,Robert,Belgrade,M
+35056,Tibor,Belitza,M
+35122,Barry (I),Bell,M
+35236,Hank,Bell,M
+35306,Marshall,Bell,M
+35312,Michael (I),Bell,M
+35432,John (I),Bellah,M
+35452,George (I),Bellamy,M
+35465,Ralph,Bellamy,M
+35477,Toni,Bellani,M
+35491,Harry,Bellaver,M
+35573,Stacy,Bellew,M
+35575,Bernard,Belleza,M
+35600,Thomas,Bellin,M
+35616,Cal,Bellini,M
+35654,Dieter,Bellmann,M
+35690,Vicenzo,Bello,M
+35694,Pier Giorgio,Bellocchio,M
+35783,Alain,Belmondo,M
+35795,Joseph,Belmont,M
+35811,Ricky,Belmonte,M
+36011,Lucas,Belvaux,M
+36051,Richard,Belzer,M
+36248,Paul,Ben-Victor,M
+36298,Tarek Vincent,Benaoum,M
+36309,Giorgy,Benaskovich,M
+36353,Miguel,Benavídez,M
+36372,Mohamed,Benbrahim,M
+36506,Naguime,Bendidi,M
+36587,Miklós,Benedek,M
+36614,Angelo,Benedetto,M
+36620,Richard,Benedetto,M
+36626,Augusto,Benedico,M
+36631,Brooks,Benedict,M
+36636,Dirk,Benedict,M
+36646,Kingsley,Benedict,M
+36662,William 'Billy',Benedict,M
+36692,George,Beneos,M
+36699,Martin,Benes,M
+36704,Svatopluk,Benes,M
+36752,Derek,Benfield,M
+36764,Wilson,Benge,M
+36825,Jean,Benguigui,M
+36835,Harry,Benham,M
+36980,Shelton,Benjamin,M
+36990,Jorge,Benjor,M
+37035,Salah,Benmoussa,M
+37052,Álex,Benn,M
+37081,John,Bennes,M
+37138,Bruce (I),Bennett,M
+37215,Hugh (II),Bennett,M
+37230,Jeff (I),Bennett,M
+37240,John David,Bennett,M
+37266,Mark (II),Bennett,M
+37292,Nigel (I),Bennett,M
+37318,Robert (II),Bennett,M
+37376,Zachary (I),Bennett,M
+37410,Joseph,Bennion,M
+37428,Jack,Benny,M
+37616,Michael (III),Benson,M
+37635,Rex,Benson,M
+37710,Galeazzo,Benti,M
+37734,Colin,Bentley,M
+37835,Mark,Benton,M
+37906,Mário,Benvenutti,M
+37940,Daniel,Benzali,M
+38009,Kamil,Bera,M
+38080,Aleksandar,Bercek,M
+38117,Laxmikant,Berde,M
+38197,Paul,Berenos,M
+38210,Witold,Beres,M
+38333,Peter (I),Berg,M
+38334,Peter (III),Berg,M
+38383,Eduardo,Bergara Leumann,M
+38396,Claudio,Berge,M
+38413,Bob,Bergen,M
+38492,Gregg,Berger,M
+38506,Howard,Berger,M
+38591,Toni,Berger,M
+38599,Wolfram,Berger,M
+38785,Magnus,Bergman,M
+38787,Mats,Bergman,M
+38849,Francis,Bergonzat,M
+38868,Idoff,Bergqvist,M
+38931,Paul,Bergsøe,M
+38984,Orhan,Berisa,M
+39003,Jean-Christophe,Berjon,M
+39031,Christian,Berkel,M
+39033,Richard,Berkeley Steele,M
+39035,Ballard,Berkeley,M
+39044,Xander,Berkeley,M
+39132,François,Berland,M
+39200,Max,Berliner,M
+39206,Charles,Berling,M
+39314,Shelley,Berman,M
+39350,Antonio,Bermudo,M
+39370,Rubén,Bermúdez,M
+39435,Ernesto (II),Bernal,M
+39437,Francisco,Bernal,M
+39493,Barry,Bernard,M
+39529,François (I),Bernard,M
+39538,Harry,Bernard,M
+39565,Joseph E.,Bernard,M
+39593,Paul (I),Bernard,M
+39621,Sam (II),Bernard,M
+39763,Erwin,Berner,M
+39831,Randy,Bernhardt,M
+40075,Robert,Berri,M
+40116,Paul,Berrondo,M
+40171,Eric,Berry,M
+40249,Serge,Berry,M
+40277,Michael,Berryman,M
+40317,Brian,Berta,M
+40327,René,Bertal,M
+40359,Fred,Bertelmann,M
+40360,Jean-Yves,Berteloot,M
+40381,Gil,Bertharion Jr.,M
+40387,Julien,Bertheau,M
+40495,Pierre (I),Bertin,M
+40529,Sergio,Bertocchi,M
+40702,Antonin,Berval,M
+40846,Ardon,Bess,M
+40901,Albert,Bessler,M
+41072,Herbert,Bethew,M
+41294,Antonio (I),Bevacqua,M
+41300,Billy,Bevan,M
+41311,Stewart,Bevan,M
+41316,Clem,Bevans,M
+41326,Georges,Bever,M
+41436,Chuck,Beyer,M
+41442,Hermann,Beyer,M
+41450,Kerry,Beyer,M
+41458,Sean Michael,Beyer,M
+41478,Richard,Beymer,M
+41631,Vikas,Bhalla,M
+41639,Raoul,Bhaneja,M
+41654,Santhana,Bharathi,M
+41659,Abhay,Bhargav,M
+41670,Thoppil,Bhasi,M
+41736,Manoranjan,Bhattacharya,M
+41811,Jello,Biafra,M
+41845,Tadeusz,Bialoszczynski,M
+41886,Kenneth,Bianchi,M
+41948,Tommaso,Bianco,M
+41996,Claudio,Biava,M
+42031,Abner,Biberman,M
+42076,Robert (I),Bice,M
+42088,Bruno,Bichir,M
+42116,Richard,Bickenbach,M
+42127,Charles,Bickford,M
+42162,István,Bicskei,M
+42185,Charlie,Biddle,M
+42204,Hugo,Bidet,M
+42231,Boguslaw,Bidzinski,M
+42251,Claus,Biederstaedt,M
+42384,Ramon,Bieri,M
+42503,Tom (II),Bigelow,M
+42632,Urs,Bihler,M
+42659,Theodore,Bikel,M
+42730,David,Bilcock,M
+42789,Zoran,Biljanovski,M
+42822,Tony,Bill,M
+42983,Monsieur,Billot,M
+42989,Fritiof,Billquist,M
+43378,Paul,Birch,M
+43535,Rudolf,Birkemeyer,M
+43559,Bjarki,Birkisson,M
+43682,Marc,Bischoff,M
+43757,Darrell,Bishop,M
+43766,Ed (I),Bishop,M
+43773,George,Bishop,M
+43847,Tim (II),Bishop,M
+43923,James D.,Bissell,M
+43928,Whit,Bissell,M
+43951,Chris,Bisson,M
+43967,Joel,Bissonnette,M
+43982,Luka,Bistrekov,M
+44040,Tibor,Bitskey,M
+44082,Jack,Bittner,M
+44148,Josh,Bizjak,M
+44207,Adolf,Bjerke,M
+44318,Gunnar,Björnstrand,M
+44472,Eric (IV),Black,M
+44560,Maurice,Black,M
+44739,Sidney,Blackmer,M
+44740,Edafe,Blackmon,M
+44807,David (I),Blackwell,M
+44936,Gérard,Blain,M
+44983,David (II),Blair,M
+45015,Michael L.,Blair,M
+45054,Gabriel,Blais,M
+45062,Roméo,Blais,M
+45195,Perry Andelin,Blake,M
+45227,Tom (I),Blake,M
+45282,Clarence,Blakiston,M
+45332,Mel,Blanc,M
+45333,Michel,Blanc,M
+45364,Modesto,Blanch,M
+45483,Carmelo,Blanco,M
+45530,Pablo (IV),Blanco,M
+45548,Tomás (I),Blanco,M
+45549,Victorio,Blanco,M
+45565,John Harrington,Bland,M
+45639,Harry,Blank,M
+45689,Mark,Blankfield,M
+45757,Txema,Blasco,M
+45863,Charles,Blavette,M
+45996,Moritz,Bleibtreu,M
+46002,John,Bleifer,M
+46033,Brian,Blessed,M
+46046,Billy,Bletcher,M
+46102,Newton,Blick,M
+46110,Bernard,Blier,M
+46171,Sergei,Blinnikov,M
+46188,Michael (II),Bliss,M
+46238,Bernard,Bloch,M
+46333,Michael (I),Blodgett,M
+46378,Dan,Blom,M
+46458,Lucien,Blondeau,M
+46531,John (I),Bloom,M
+46572,Don,Bloomfield,M
+46587,Eric,Blore,M
+46605,Fernand,Blot,M
+46683,Harry,Blue,M
+46909,Stanley,Blystone,M
+46975,Victor,Bo,M
+46980,Bruce,Boa,M
+47019,True (I),Boardman,M
+47020,True (II),Boardman,M
+47067,Stefan,Bobadov,M
+47258,Lloyd,Bochner,M
+47710,Vyacheslav,Bogachyov,M
+47715,Jens-Uwe,Bogadtke,M
+47721,Ward,Bogaert,M
+47738,Dirk,Bogarde,M
+47748,Humphrey,Bogart,M
+47764,Pavle,Bogatincevic,M
+47883,Miodrag (I),Bogic,M
+47909,Brad,Bognar,M
+47928,Igor,Bogodukh,M
+47951,Axel,Bogousslavsky,M
+47994,Jim,Bohan,M
+48005,Eran,Bohem,M
+48036,Hark,Bohm,M
+48037,Marquard,Bohm,M
+48091,Richard,Bohringer,M
+48113,Federico,Boido,M
+48133,Jean,Boillot,M
+48177,Julien,Boisselier,M
+48210,Brian,Boitano,M
+48253,Dragomir 'Gidra',Bojanic,M
+48341,James,Bolam,M
+48374,William,Bolander,M
+48381,Manuel,Bolao,M
+48420,Roger,Bolders,M
+48442,Joachim,Boldt,M
+48505,John Michael,Bolger,M
+48635,Horst,Bollmann,M
+48724,David,Bolt,M
+48732,Jonathan,Bolt,M
+48928,Eduardo,Bonada,M
+48977,Fortunio,Bonanova,M
+49018,Jack,Bonavita,M
+49078,Jesse,Bond,M
+49124,Klaus,Bondam,M
+49166,Aleksandr,Bondi,M
+49217,Bizzy,Bone,M
+49290,Eddie,Bonette,M
+49338,Roberto,Bonfim,M
+49340,Pasquale,Bonfrisco,M
+49511,Jacques,Bonnaffé,M
+49564,Lee,Bonnell,M
+49593,Paul (II),Bonner,M
+49688,Marcus,Bonnée,M
+49690,César,Bono,M
+49969,Adam,Boor,M
+50006,Anthony,Booth,M
+50031,Elmer,Booth,M
+50244,Joe,Bordeaux,M
+50259,Eddie,Borden,M
+50260,Eugene,Borden,M
+50273,Ross,Borden,M
+50355,Jaromír,Borek,M
+50664,Oleg,Borisov,M
+50764,Thomas,Born,M
+51094,Bill,Borzage,M
+51161,Jordi,Bosch,M
+51266,Minko,Bosev,M
+51282,Andrea,Bosic,M
+51319,Tom,Bosley,M
+51537,Hobart,Bosworth,M
+51561,Wade,Boteler,M
+51631,Dick,Botiller,M
+51693,Chris,Botti,M
+51739,Joseph,Bottoms,M
+51740,Sam,Bottoms,M
+52121,Michel,Boujenah,M
+52131,Kader,Boukhanef,M
+52184,Edward,Boulden,M
+52292,Michel,Bouquet,M
+52314,Karim,Bourara,M
+52357,Thomy,Bourdelle,M
+52448,Julián,Bourges,M
+52523,Lindsay,Bourne,M
+52579,Adam,Bousdoukos,M
+52923,Tyler,Bowe,M
+52951,Dennis (I),Bowen,M
+53250,John,Bown,M
+53338,Christopher,Boyadji,M
+53353,Garbis,Boyagian,M
+53471,Guy,Boyd,M
+53534,Stephen (I),Boyd,M
+53567,Raymond,Boyden,M
+53587,Charles (I),Boyer,M
+53733,Ken,Boyle,M
+53784,Clifton,Boyne,M
+53816,Klaus,Boysen,M
+53905,Petar,Bozovic,M
+54045,Sidney,Bracey,M
+54122,James,Bradbury Jr.,M
+54313,Doug (I),Bradley,M
+54325,Harold (I),Bradley,M
+54326,Harry C.,Bradley,M
+54364,Leslie,Bradley,M
+54385,Pat (III),Bradley,M
+54387,Paul (I),Bradley,M
+54423,Truman,Bradley,M
+54447,Carl,Bradshaw,M
+54523,Edward,Brady,M
+54574,Pat (I),Brady,M
+54620,Zach,Braff,M
+54727,Lionel,Braham,M
+54802,Pat (II),Braithwaite,M
+54808,Vojislav,Brajovic,M
+54936,Kenneth,Branagh,M
+55029,George (I),Brand,M
+55046,Marinus,Brand,M
+55056,Neville,Brand,M
+55065,Rudolf,Brand,M
+55069,Steve (I),Brand,M
+55160,Sigfrid,Brandl,M
+55174,Marlon,Brando,M
+55242,X.,Brands,M
+55421,Jon,Branner,M
+55425,Dick,Brannick,M
+55483,Mickey,Brantford,M
+55616,Pierre,Brasseur,M
+55725,Tiny,Brauer,M
+55731,Jose,Braulio,M
+55875,Arthur,Brauss,M
+55908,Guillermo,Bravo Sosa,M
+55910,Carlos,Bravo y Fernández,M
+55917,Antonio (I),Bravo,M
+55968,Tony (II),Bravo,M
+55977,James,Brawley,M
+56063,Jay,Brazeau,M
+56130,George P.,Breakston,M
+56298,Harry,Breen,M
+56329,Edmund,Breese,M
+56444,Gerd,Breitung,M
+56454,Martín,Brek,M
+56482,Beppo,Brem,M
+56603,Christopher,Brennan,M
+56655,Mark (I),Brennan,M
+56706,William Martin,Brennan,M
+56772,George (I),Brent,M
+56790,Romney,Brent,M
+56791,Roy,Brent,M
+56809,Edmund,Breon,M
+56873,Herbert,Bress,M
+57039,Sean,Brevak,M
+57172,Mike,Breyer,M
+57413,Lloyd,Bridges,M
+57509,Matteo,Briga,M
+57632,Robert (I),Bright,M
+57665,Paul,Brightwell,M
+57783,Burt,Brinckerhoff,M
+57799,Adrian,Brine,M
+57801,Paul,Brinegar,M
+57864,Ritch,Brinkley,M
+57964,Gerald,Brisco,M
+57972,Brent,Briscoe,M
+58154,Cecil,Brittain,M
+58187,Sérgio (I),Britto,M
+58247,Peter,Brixtofte,M
+58309,Ed,Broadbent,M
+58395,Arturo,Broccolo,M
+58447,Ed,Brock,M
+58556,Andrew,Broder,M
+58579,Robert,Broderick,M
+58600,Don,Brodie,M
+58649,Vlastimil,Brodský,M
+58656,Adrien,Brody,M
+58696,Peter,Broekaert,M
+58773,James,Brolin,M
+58809,John,Bromfield,M
+58849,Manuel,Bronchud,M
+58881,Gerhard (I),Bronner,M
+58883,Thomas,Bronner,M
+58899,Charles,Bronson,M
+58926,Jean,Bronte,M
+59004,Tyler (I),Brooke,M
+59005,Van Dyke,Brooke,M
+59006,Walter,Brooke,M
+59089,Clarence,Brooks,M
+59143,Irving,Brooks,M
+59179,Len (II),Brooks,M
+59183,Lucius,Brooks,M
+59225,Rand,Brooks,M
+59252,Sammy,Brooks,M
+59303,Jerry,Broome,M
+59431,Statler,Brothers,M
+59659,Alan (III),Brown,M
+59661,Alan Henry,Brown,M
+59739,Bob (I),Brown,M
+59878,David (II),Brown,M
+59905,Don (V),Brown,M
+60010,Gilbert Glenn,Brown,M
+60082,James 'Texas Blood',Brown,M
+60083,James (I),Brown,M
+60107,Jefferson,Brown,M
+60119,Jim (I),Brown,M
+60170,Judge Joe,Brown,M
+60191,Ken (V),Brown,M
+60201,Kevin (I),Brown,M
+60251,Lou (I),Brown,M
+60279,Matthew (VI),Brown,M
+60354,P.L.,Brown,M
+60442,Robert (I),Brown,M
+60444,Robert (XI),Brown,M
+60460,Roger Aaron,Brown,M
+60479,Russ (I),Brown,M
+60588,Tom E.,Brown,M
+60620,Wally,Brown,M
+60638,William H.,Brown,M
+60761,Kurt,Browning,M
+60902,Gary,Bruce,M
+61045,George,Bruggeman,M
+61053,Eddie,Brugman,M
+61110,Tone,Brulin,M
+61279,Marc (I),Brunet,M
+61281,Michael,Brunet,M
+61333,Robert,Bruning,M
+61391,Harry,Brunning,M
+61425,Giovanni,Bruno,M
+61428,Horacio,Bruno,M
+61452,Nando,Bruno,M
+61574,Alexei,Brusilov,M
+61623,Stephen,Bruton,M
+61692,Arthur Q.,Bryan,M
+61739,Paul (IV),Bryan,M
+61806,Jeff (IV),Bryant,M
+61818,Joshua,Bryant,M
+61880,Paul,Bryar,M
+61945,Valentin,Bryleyev,M
+62079,Edmond,Bréon,M
+62089,Oliver,Bröcker,M
+62325,Edgar,Buchanan,M
+62332,Jason,Buchanan,M
+62498,Jeffrey,Buck,M
+62535,Carlos,Bucka,M
+62634,Jack (II),Buckley,M
+62712,Ralph,Bucko,M
+62744,Zbigniew,Buczkowski,M
+62775,Zoltan,Buday,M
+62833,Drazen,Budisa,M
+62841,Gerald,Budner,M
+62971,Ingo,Buesing,M
+63266,Goran,Bukilic,M
+63299,Michael,Bukowsky,M
+63454,James (II),Buller,M
+63466,James,Bulliard,M
+63543,Quintín,Bulnes,M
+63723,John,Bunny,M
+63803,Sonny,Bupp,M
+63811,Adolf,Bur,M
+63935,Hugh (I),Burden,M
+64164,Arthur,Burghardt,M
+64274,Alfred,Burke,M
+64325,J. Frank,Burke,M
+64434,Will (I),Burke,M
+64474,Harry,Burkhardt,M
+64800,Bart,Burns,M
+64807,Bob (II),Burns,M
+64810,Bobby (I),Burns,M
+64841,David (I),Burns,M
+64866,Fred (I),Burns,M
+64879,J.P.,Burns,M
+64923,Letham,Burns,M
+64947,Peter (I),Burns,M
+64974,Steve (V),Burns,M
+65051,Jeff,Burr,M
+65085,Johnnie (I),Burrell,M
+65342,Corey,Burton,M
+65367,J.W.,Burton,M
+65389,LeVar,Burton,M
+65455,Frederick,Burtwell,M
+65549,Ernst,Busch,M
+65603,Gary,Busey,M
+65634,Eric,Bush,M
+65690,Anthony,Bushell,M
+65714,Francis X.,Bushman,M
+65751,Tommy,Buson,M
+65809,Nicholas D.,Bussey,M
+65872,Sergio (I),Bustamante,M
+66085,David (I),Butler,M
+66091,Daws,Butler,M
+66234,Walter (I),Butler,M
+66242,William J.,Butler,M
+66243,William Kenneth,Butler,M
+66262,Seweryn,Butrym,M
+66334,Ernest,Butterworth,M
+66450,Johannes,Buzalski,M
+66479,Lando,Buzzanca,M
+66487,Matthew,Buzzell,M
+66509,Miguel,Buñuel,M
+66519,Ivan,Byamugisha,M
+66576,Scotch,Byerly,M
+66623,Stuart,Byham,M
+66640,Rolan,Bykov,M
+66784,David (I),Byrne,M
+66894,George,Byron,M
+66903,John (I),Byron,M
+66948,Walter,Bytell,M
+67027,György,Bárdy,M
+67082,Hans-Jürgen,Bäumler,M
+67133,Meyong,Békaté,M
+67254,Hans-Peter,Bögel,M
+67269,Peter,Böhlke,M
+67281,Karlheinz (I),Böhm,M
+67283,Manfred,Böhm,M
+67337,Paul,Bös,M
+67342,Paul,Bösiger,M
+67467,Wolfgang,Büttner,M
+67535,Mario (I),Caballero,M
+67544,Rodrigo (I),Caballero,M
+67710,Efisio,Cabras,M
+67954,John (I),Cadenhead,M
+67999,Darcy,Cadman,M
+68048,Harry,Caesar,M
+68080,José María,Caffarel,M
+68130,Ali,Cagaloglu,M
+68193,William,Cagney,M
+68337,André,Cailloux,M
+68463,Dallas,Cairns,M
+68572,Thomas,Calabro,M
+68658,Héctor,Calcaño,M
+68775,Bunny,Calderón,M
+68923,Anthony,Calf,M
+68955,Patrick,Calhoun,M
+69000,George,Calil,M
+69053,Ed,Call,M
+69116,E.J.,Callahan,M
+69161,William (I),Callahan,M
+69166,Lucien,Callamand,M
+69328,Simon,Callow,M
+69430,Donald,Calthrop,M
+69530,Armando,Calvo,M
+69555,Manuel (I),Calvo,M
+69734,Francisco,Camargo,M
+69746,Márcio (I),Camargo,M
+69963,Josh,Cameron,M
+70048,Gero,Camilo,M
+70098,Tony,Cammarata,M
+70116,Francisco,Camoiras,M
+70206,Marc A.,Campanel,M
+70209,Joseph,Campanella,M
+70282,Bruce (I),Campbell,M
+70289,Caley,Campbell,M
+70359,Donald (I),Campbell,M
+70539,Paul (IV),Campbell,M
+70620,William (I),Campbell,M
+70635,Frank,Campeau,M
+70789,Elias,Campos,M
+70854,Ricardo (I),Campos,M
+70890,Ken,Camroux,M
+70963,Antonio,Canal,M
+71215,Adolfo Luxúria,Canibal,M
+71514,Francisco,Cantalejo,M
+71578,Néstor,Cantillana,M
+71590,Paolo,Cantinelli,M
+71623,Mark,Canton,M
+71746,Yakima,Canutt,M
+71805,Peter,Capaldi,M
+72194,Frank,Capra,M
+72227,Vittorio,Caprioli,M
+72267,Douglas,Caputo,M
+72331,Conny,Caracciolo,M
+72453,Tony,Carbajal,M
+72520,Raymond,Carbone,M
+72672,Ben,Cardinal,M
+72704,Joaquín,Cardona,M
+72712,René,Cardona,M
+72753,Idilio,Cardoso,M
+72901,James (I),Carew,M
+72912,Edwin,Carewe,M
+72954,Harry,Carey,M
+72971,Macdonald,Carey,M
+73062,Carmine,Caridi,M
+73325,Ismael 'East',Carlo,M
+73359,Antônio (I),Carlos,M
+73891,Cliff,Carnell,M
+73898,Antonio,Carnera,M
+73926,Bob (I),Carney,M
+73929,Chris (I),Carney,M
+73992,Marcel,Carné,M
+74080,René (I),Caron,M
+74181,Horace B.,Carpenter,M
+74268,Bart,Carpinelli,M
+74334,Eric (II),Carr,M
+74346,Harry (I),Carr,M
+74353,Jack (I),Carr,M
+74450,John,Carradine,M
+74451,Keith,Carradine,M
+74626,Chacho,Carreras,M
+74674,José Luis,Carreño,M
+74684,Robert,Carricart,M
+74735,Thomas,Carrigan,M
+74746,Brian,Carrillo,M
+74856,Mathieu,Carrière,M
+74984,Justin,Carroll,M
+75060,Ric,Carrott,M
+75140,Charles,Carson,M
+75151,David (II),Carson,M
+75163,Jack (II),Carson,M
+75184,Lemmy,Carson,M
+75350,Donald (I),Carter,M
+75367,Fred (II),Carter,M
+75384,Harry (I),Carter,M
+75391,Hubert,Carter,M
+75501,Richard (I),Carter,M
+75543,Tom (I),Carter,M
+75686,Anthony (I),Caruso,M
+75768,Duarte,Carvalheira,M
+75883,Dana,Carvey,M
+75898,Christopher,Cary,M
+75936,Eric,Casaccio,M
+75964,Matt,Casado,M
+76114,Carlos,Casaravilla,M
+76300,Renzo,Casellato,M
+76338,Bernie,Casey,M
+76388,Kenneth (I),Casey,M
+76395,Lawrence P.,Casey,M
+76578,Egidio,Casolari,M
+76728,John,Cassavetes,M
+76729,Nick,Cassavetes,M
+76734,Jean-Pierre,Cassel,M
+76797,Ed (I),Cassidy,M
+76862,Bill,Cassinelli,M
+76863,Claudio,Cassinelli,M
+77080,Rolf,Castell,M
+77226,Nino,Castelnuovo,M
+77245,Jeff,Caster,M
+77437,Óscar,Castillo,M
+77772,Icky the,Cat,M
+77784,Brian,Catalano,M
+77848,Manuel Joaquim,Catalão,M
+77857,Alfredo,Catania,M
+78273,Jason,Cavalier,M
+78341,Allan,Cavan,M
+78353,Paul,Cavanagh,M
+78367,Hobart,Cavanaugh,M
+78445,Glen,Cavender,M
+78455,Fred,Cavens,M
+78597,Grégoire,Caze,M
+78674,José Antonio,Cebas,M
+78687,Francisco,Cebrián,M
+78725,Renato,Cecchetto,M
+78773,Edward,Cecil,M
+79179,Christopher,Ceombs,M
+79321,Giorgio,Cerioni,M
+79529,Todd,Cerveris,M
+79535,Gino,Cervi,M
+79595,Adán,Cesarini,M
+79844,The,Chad,M
+80019,Michael,Chain,M
+80077,George,Chakiris,M
+80082,Malay,Chakrabarty,M
+80126,Tungala,Chalapathi Rao,M
+80160,Feodor,Chaliapin Jr.,M
+80194,Percy,Challenger,M
+80408,Munro,Chambers,M
+80560,Jean,Champion,M
+80595,Tha,Chan Chan,M
+80597,Daniel,Chan Hiu Tung,M
+80651,Eason,Chan,M
+80684,Jackie (I),Chan,M
+80922,Damon,Chandler,M
+80930,Eddy,Chandler,M
+80936,George,Chandler,M
+80958,Lane,Chandler,M
+80974,Simon,Chandler,M
+80983,Warren,Chandler,M
+81046,Lon,Chaney,M
+81403,Saul,Chaplin,M
+81460,Galvin,Chapman,M
+81579,John (I),Chappell,M
+81594,Antoine,Chappey,M
+81830,Josh (I),Charles,M
+82027,Jacques,Charon,M
+82173,Charley,Chase,M
+82185,Colin (I),Chase,M
+82337,Geoffrey,Chater,M
+82433,Tom,Chatterton,M
+82511,Roberto,Chauffard,M
+82733,Maury,Chaykin,M
+82802,Clément,Chebli,M
+82934,Sergei,Chekan,M
+82935,Stanislav,Chekan,M
+83040,Chao-jung,Chen,M
+83109,Kuan Tai,Chen,M
+83114,Lan,Chen,M
+83126,Mingao,Chen,M
+83282,Hong-Yip,Cheng,M
+83300,Mark,Cheng,M
+83442,Nikolai,Cherkasov,M
+83491,Igor,Chernitsky,M
+83543,André,Cheron,M
+83598,Malcolm,Cherry,M
+83613,Aleksei,Cherstvov,M
+83645,George (I),Chesebro,M
+83826,John,Cheung,M
+83840,Leslie,Cheung,M
+83908,Cyr,Chevalier,M
+83929,Michael,Chevalier,M
+83987,Jean,Chevrier,M
+84075,Minoru,Chiaki,M
+84117,Renato,Chiantoni,M
+84121,Roy,Chiao,M
+84269,Pedro,Chicote,M
+84307,Beppe,Chierici,M
+84346,Takeo,Chii,M
+84500,Jason,Chimonides,M
+84581,Nikolai,Chindyajkin,M
+84718,Charles,Chiquette,M
+84721,Giga,Chirakadze,M
+84878,Man Cheuk,Chiu,M
+84966,Henry,Chmielnicki,M
+84973,Bang-ho,Cho,M
+84990,John,Cho,M
+85005,Sung-ha,Cho,M
+85080,Bul-am,Choi,M
+85179,Yong-han,Choi,M
+85626,Pat,Chrisman,M
+85854,Michael (I),Christian,M
+85953,Rasmus,Christiansen,M
+86115,Dr. Peg,Christopher,M
+86159,Scott,Christopher,M
+86356,The,Chuckles,M
+86426,Yuri,Chulyukin,M
+86427,Vansam,Chum,M
+86462,Shih,Chun,M
+86473,Albert,Chung,M
+86580,Fred,Church,M
+86625,Winston (I),Churchill,M
+86721,Catarino,Chávez,M
+86735,José,Chávez,M
+86744,Martín (II),Chávez,M
+86749,Óscar,Chávez,M
+86812,Tonino,Cianci,M
+86890,José,Cibrián,M
+86905,Tony,Cicchetti,M
+86944,Paul,Cicero,M
+87011,Piotr,Cieslak,M
+87248,Aurel,Cioranu,M
+87291,Ljubomir,Cipranic,M
+87493,Lenny,Citrano,M
+87660,André,Clairius,M
+87687,George,Clancey,M
+87764,O.B.,Clarence,M
+87778,Verner,Clarges,M
+87794,Hans,Clarin,M
+87852,Blake,Clark,M
+88023,Harvey,Clark,M
+88027,Ian D.,Clark,M
+88068,Jim (I),Clark,M
+88069,Jim (III),Clark,M
+88185,Oliver (I),Clark,M
+88239,Roy (VII),Clark,M
+88411,Graham,Clarke,M
+88581,Charles,Clary,M
+88647,Jean,Claudio,M
+88821,Nicholas (I),Clay,M
+88827,Philippe,Clay,M
+88862,George,Claydon,M
+88879,Adam (I),Clayton,M
+88903,Edward,Clayton,M
+89093,Clay,Clement,M
+89096,David,Clement,M
+89139,Steve,Clemente,M
+89149,Baby,Clements,M
+89161,Hal,Clements,M
+89285,Julio,Cleto,M
+89331,Jimmy,Cliff,M
+89332,John,Cliff,M
+89502,Edward,Clisbee,M
+89717,Martin,Clunes,M
+89743,Andy,Clyde,M
+89951,Edmund,Cobb,M
+89970,Lee J.,Cobb,M
+90044,Germán,Cobos,M
+90116,Richard,Cocciante,M
+90279,Johnny,Cocktails,M
+90366,Franco,Coduti,M
+90370,Bill (I),Cody,M
+90390,Lew,Cody,M
+90496,Herman,Coessens,M
+90512,Vincent,Cofalka,M
+90564,Frederick,Coffin,M
+90613,Natan,Cogan,M
+90626,Thomas C.,Coggin,M
+90650,Nick,Cogley,M
+90714,Aurelio,Cohen,M
+90888,Moisés,Cohen,M
+90890,Motti,Cohen,M
+90935,Sammy,Cohen,M
+91168,Manfredo,Colassanti,M
+91607,Dan (II),Coleman,M
+91731,Ted (I),Coleman,M
+91796,Saverio,Coletta,M
+91831,Feridun,Colgecen,M
+92022,Yann,Collette,M
+92151,Eamonn,Collinge,M
+92589,Bud,Collyer,M
+92674,Vincent,Colombe,M
+92731,Fernando,Colomo,M
+92785,Los,Colosos,M
+92857,Sam,Colton,M
+93041,Gary,Combs,M
+93044,Jeffrey,Combs,M
+93257,Clark,Comstock,M
+93325,Gabby,Concepcion,M
+93410,Donald (I),Condon,M
+93414,Jackie,Condon,M
+93415,James,Condon,M
+93568,Chester,Conklin,M
+93594,Andy,Conlan,M
+93599,Frank,Conlan,M
+93724,Jim (I),Connell,M
+93753,Bobby,Connelly,M
+93880,Billy,Connolly,M
+93897,Jack,Connolly,M
+93928,Sean (II),Connolly,M
+94231,Robert,Consoli,M
+94284,Michel (I),Constantin,M
+94571,Roberto,Contreras,M
+94608,Joe,Convery,M
+94651,Jack,Conway,M
+94806,Clyde (I),Cook,M
+94997,Warren,Cook,M
+95006,Al,Cooke,M
+95037,Gregory (I),Cooke,M
+95125,Hallam,Cooley,M
+95127,James (I),Cooley,M
+95173,Guy (I),Coombs,M
+95181,Royce,Coombs,M
+95246,Alice (I),Cooper,M
+95651,Kevin,Copeland,M
+95688,Márcio,Copetii,M
+95942,Ben,Corbett,M
+95965,John (I),Corbett,M
+96147,Joaquín,Cordero,M
+96245,Raymond,Cordy,M
+96296,Jim,Corey,M
+96391,Ian James,Corlett,M
+96489,Peter,Cornehlsen,M
+96509,Walter,Cornelis,M
+96797,Gino,Corrado,M
+96980,Chris (I),Corrigan,M
+97005,Ray,Corrigan,M
+97053,Bill,Corsair,M
+97496,John (II),Cosgrove,M
+97578,Joaquín,Coss,M
+97588,John,Cossar,M
+97592,Ernest,Cossart,M
+97673,Cilo,Costa,M
+97947,Maurice (I),Costello,M
+97968,William (I),Costello,M
+98000,George,Costigan,M
+98129,Joseph (I),Cotten,M
+98229,Oliver,Cotton,M
+98593,Syd,Courtenay,M
+98611,Jerome,Courtland,M
+98651,Joel,Courtney,M
+98785,Jorge (II),Coutinho,M
+98906,Tom,Coventry,M
+98912,David,Coverdale,M
+98916,Allen,Covert,M
+98958,Bernard,Cowan,M
+98982,Jerome,Cowan,M
+99083,Darry,Cowl,M
+99090,Denis,Cowles,M
+99105,Jack,Cowley,M
+99140,Alex (I),Cox,M
+99156,Brian (I),Cox,M
+99168,Chad,Cox,M
+99358,Graham,Coxon,M
+99406,Matthew,Coyle,M
+99412,Richard,Coyle,M
+99637,Charles (I),Craig,M
+99667,Ivan (I),Craig,M
+99912,Jack,Crane,M
+99932,Richard (I),Crane,M
+100021,Noel,Cravat,M
+100044,Matt (I),Craven,M
+100165,Johnny,Crawford,M
+100257,Robert,Cray,M
+100417,Bruno,Cremer,M
+100446,Richard,Crenna,M
+100567,René,Creste,M
+100593,Carl-Erik,Creutz,M
+100707,Laurence,Criner,M
+100777,Donald (I),Crisp,M
+100841,Giuseppe (II),Cristiano,M
+101035,Richard (II),Croft,M
+101138,James (I),Cromwell,M
+101213,Patrick,Cronin,M
+101290,Joan,Crosas,M
+101315,Jack (II),Crosby,M
+101514,Syd,Crossley,M
+101577,Sean,Crouse,M
+102190,James,Cruze,M
+102221,Michel,Crémadès,M
+102350,László,Csákányi,M
+102660,Chaoming,Cui,M
+102694,Dejan (I),Cukic,M
+102809,Frederick,Culley,M
+102820,Arthur M.,Cullin,M
+102882,Joseph,Culp,M
+102884,Robert,Culp,M
+102958,Alan,Cumming,M
+103001,Irving,Cummings,M
+103082,John R.,Cumpson,M
+103118,Lester,Cuneo,M
+103278,Muhammed,Cunningham,M
+103328,Alain,Cuny,M
+103339,Kai Min,Cuo,M
+103862,Mickey,Curtis,M
+103910,Vondie,Curtis-Hall,M
+103944,Patric,Curwen,M
+104025,Bob,Custer,M
+104242,Zbigniew,Cybulski,M
+104277,Ray,Cyr,M
+104353,Mieczyslaw,Czechowicz,M
+104495,Manolo,Cárdenas,M
+104524,Ivan,Cândido,M
+104668,Paolo,D'Agostino,M
+104680,Sidney,D'Albrook,M
+104699,Roberto,D'Alessandro,M
+104820,Camillo,D'Ancona,M
+104924,Lionel,d'Aragon,M
+104967,Marques,D'Arede,M
+104983,Gustavo,D'Arpe,M
+105048,Batiste,D'el Mas,M
+105341,João Batista,da Cunha,M
+105456,Ferreira,da Silva,M
+105539,Parvin,Dabas,M
+105800,Robert,Daglish,M
+106069,Yasuo,Daichi,M
+106127,Pete,Daily,M
+106267,Robert,Dalban,M
+106432,Mike,Daley,M
+106561,Robert,Dallek,M
+106565,Joe,Dallesandro,M
+106621,Michael,Dalmon,M
+106632,Roger,Dalphin,M
+106726,Georg,Dalunde,M
+106789,Mark (I),Daly,M
+107067,Mark,Damon,M
+107384,Serge,Daney,M
+107664,Frank (I),Daniels,M
+107698,Jeff (I),Daniels,M
+107746,Mickey,Daniels,M
+107864,Pavel,Daniluk,M
+107939,Thomas,Danneberg,M
+108634,Paul,Darrigo,M
+108952,Salim,Dau,M
+108984,Jordi,Dauder,M
+109012,Jon (I),Daugherty,M
+109019,Ryan,Daugherty,M
+109068,Claude,Dauphin,M
+109093,Kote,Daushvili,M
+109213,Nigel,Davenport,M
+109299,Louis (II),Daviault,M
+109424,Mario (I),David,M
+109582,Christophe,Davidson,M
+109664,Prince,Davidson,M
+109789,Graeme,Davies,M
+109979,Alexander,Davion,M
+110072,Brad (I),Davis,M
+110262,Fred (I),Davis,M
+110316,J. Gunnis,Davis,M
+110406,Jonathan (I),Davis,M
+110467,Lew,Davis,M
+110569,Paris,Davis,M
+110752,Tyrell,Davis,M
+110870,Jean,Davy,M
+110894,Vladlen,Davydov,M
+110900,José Marco,Davó,M
+110988,Dean,Dawson,M
+111014,Lee (I),Dawson,M
+111207,Assi,Dayan,M
+111264,Frank,Dayton,M
+111330,Pedro (II),de Aguillón,M
+111350,Rodolfo,de Alejandre,M
+111393,Joaquim,de Almeida,M
+111407,Onésimo,de Almeida,M
+111469,Ángel,de Andrés,M
+111588,Cid Paes,de Barros,M
+111654,Miquel,de Benifet,M
+112020,Daniel,De Cock,M
+112133,João,de Deus,M
+112275,Louis,de Funès,M
+112288,Filippo,De Gara,M
+112408,Walter,De Groote,M
+112415,Domien,De Gruyter,M
+112581,José Ángel,de Juanes,M
+112829,Jaime,de la Rosa,M
+112850,Antonio (I),de la Torre,M
+112961,James,De Le Vaga,M
+113149,Pasqualino,De Luca,M
+113408,Jo,De Meyere,M
+113420,Antonio (II),de Miguel,M
+113500,Amadeu,de Moura,M
+113561,Robert,De Niro,M
+113664,Sebastião,de Oliveira,M
+113752,José Agripino,de Paula,M
+113965,Rex,De Rosselli,M
+114049,Bonet,de Sanpedro,M
+114505,Nestor,De Villa,M
+114576,Bernard (II),De Vries,M
+114632,Tuur,De Weert,M
+114816,Byron,Dean,M
+114900,Louis,Dean,M
+114953,Ron (I),Dean,M
+114958,Shane,Dean,M
+114997,Sydney,Deane,M
+115156,Michael,DeBeausset,M
+115739,John (II),Deering,M
+116146,Anton,Deininger,M
+116175,Andreas,Deja,M
+116286,Frank,DeKova,M
+116357,Eric,del Castillo,M
+116366,Gustavo,del Castillo,M
+116669,Raúl,del Valle,M
+116768,Michel,Delahaye,M
+116794,Neil,Delama,M
+116803,Maurice,Delamare,M
+116831,Charles,Delaney,M
+117057,Fabrice,Delecluse,M
+117550,Fred,Delmare,M
+117708,Albert,Delpy,M
+117854,Peter,DeManio,M
+118068,Mark (I),DeMichele,M
+118170,Pascal,Demolon,M
+118208,S.,Demoslavsky,M
+118282,Jeffrey,DeMunn,M
+118455,Joey,DeNiro,M
+118508,Michael (I),Denison,M
+118563,Brian,Dennehy,M
+118662,Les,Dennis,M
+118820,Vernon,Dent,M
+118921,Ahana,Deol,M
+118923,Bobby,Deol,M
+119247,Enrique,DeRosas,M
+119254,John,deRosier,M
+119414,Manher,Desai,M
+119782,Ivan,Desny,M
+119872,Jacques,Desrosiers,M
+120098,Rahul,Dev,M
+120145,John,DeVaut,M
+120327,Mark (II),Devine,M
+120700,Rudolf (II),Deyl,M
+120766,Cyril,Dharmawardhana,M
+121247,Ángel,Di Stefani,M
+121656,Julio (I),Diaz,M
+122040,Stephen (I),Dickson,M
+122070,Bo,Diddley,M
+122139,Hans Jürgen,Diedrich,M
+122146,Frédéric,Diefenthal,M
+122156,Gabino,Diego,M
+122279,Vin,Diesel,M
+122315,Harald,Dietl,M
+122471,Eddie,Diggins,M
+122594,Bogdan,Diklic,M
+122644,Jack,Dill,M
+122758,Edward,Dillon,M
+122786,John Webb,Dillon,M
+123135,Alan (I),Dinehart,M
+123345,Hector,Dion,M
+123486,Ariel,Direse,M
+123541,David,DiSalvio,M
+123605,Roy Edward,Disney,M
+123607,Walt,Disney,M
+123621,Werner,Dissel,M
+123707,Ralf,Dittrich,M
+123844,Glenn,Dixon,M
+123858,James (I),Dixon,M
+124113,Dusan,Djuric,M
+124157,Artur,Dmitriev,M
+124166,Igor,Dmitriyev,M
+124553,Michal,Docolomansky,M
+124734,Marc,Doelnitz,M
+124776,Beans the,Dog,M
+125290,W.,Dolphin,M
+125456,Plácido,Domingo,M
+125615,Chamaco Alberto,Domínguez,M
+125660,Davy,Don,M
+125710,Al,Donahue,M
+125851,J.D.,Donaruma,M
+125951,Manuel,Dondé,M
+126075,Mike,Donlin,M
+126240,John (II),Donohue,M
+126649,Alfred,Dorfer,M
+126878,Lester,Dorr,M
+126911,Robert,Dorsay,M
+126924,Blake,Dorsey,M
+126950,Thomas A.,Dorsey,M
+127098,B.V.,Doshi,M
+127313,Dick,Dougherty,M
+127428,D.C.,Douglas,M
+127470,Hugh (I),Douglas,M
+127485,James (V),Douglas,M
+127708,Gary,Dourdan,M
+127753,Steve,Douzos,M
+127935,Joseph J.,Dowling,M
+128026,Mike (I),Downey,M
+128099,Hugh,Downs,M
+128137,Norman,Doxat-Pratt,M
+128340,Vanja,Drach,M
+128341,Heinz,Drache,M
+128380,Lt. Marcel,Drageauson,M
+128516,David (I),Drake,M
+128898,Viktor,Drevitski,M
+128946,Sidney,Drew,M
+128962,Jürgen,Drews,M
+129037,Burkhard,Driest,M
+129124,Tex,Driscoll,M
+129285,Tom,Drougas,M
+129484,Wheeler,Dryden,M
+129594,Pieter,Du Preez,M
+129755,Ye.,Dubasov,M
+129908,Gaston,Dubosc,M
+130232,Bernard,Dudley,M
+130340,Manuel,Dueso,M
+130607,Tom (I),Dugan,M
+130611,Jean-Philippe,Dugand,M
+131023,Douglass,Dumbrille,M
+131193,David (I),Dunbar,M
+131307,Martin (I),Duncan,M
+131333,Robert (XII),Duncan,M
+131443,Phil,Dunham,M
+131694,Ralph,Dunn,M
+131738,William R.,Dunn,M
+132020,Albert,Dupontel,M
+132172,Joe,Duquette,M
+132253,Edouard,Durand,M
+132495,Ercan,Durmaz,M
+132506,Charles,Durning,M
+132642,Biel,Durán,M
+132846,Sunil,Dutt,M
+133009,Eckart,Dux,M
+133031,Stanislav,Duzhnikov,M
+133075,Vatslav,Dvorzhetsky,M
+133182,Aleksandr,Dyachenko,M
+133926,Tony,Díaz,M
+133983,Hugo,Döblin,M
+134037,Roland,Düringer,M
+134399,Frank,Eastman,M
+134620,Friedhelm,Eberle,M
+134673,Fritz,Eberth,M
+134748,Donald,Eccles,M
+134774,Juan,Echanove,M
+134959,Johannes,Eckhoff,M
+134994,Volker,Eckstein,M
+135150,Samuli,Edelmann,M
+135331,Jerod,Edington,M
+135462,Bobby,Edner,M
+135567,Paul,Edwards Jr.,M
+135716,Gus (I),Edwards,M
+135722,Henry (I),Edwards,M
+135841,Neely,Edwards,M
+135856,Pierre,Edwards,M
+135983,Efgan,Efekan,M
+136104,Albert,Egbert,M
+136106,Seth,Egbert,M
+136465,Richard,Eichberg,M
+136524,Adolf,Eichmann,M
+136623,Jacob,Eilon,M
+136636,Pétur,Einarsson,M
+137044,Reidar,Ekwang,M
+137273,Luay,El-Kadhi,M
+137534,Douglas,Elford-Argent,M
+137681,William,Elie,M
+137727,Luc,Elissalde,M
+137750,Humberto,Elizondo,M
+137757,Salvador,Elizondo,M
+137943,William,Ellingford,M
+138120,James (II),Elliott,M
+138293,Frank (I),Ellis,M
+138567,Stéphane,Elmadjian,M
+138676,Toppo,Elonperä,M
+138696,Nabil,Elouhabi,M
+138745,Mottar,Elshenaivy,M
+139021,Aaron,Emerson,M
+139026,Charles (I),Emerson,M
+139281,Erhan,Emre,M
+139417,Yuya,Endo,M
+139677,Chad,England,M
+139713,Paul,Engle,M
+139859,Felix,Engström,M
+140071,Howard,Enstedt,M
+140203,Dieter,Eppler,M
+140270,Rob,Epstein,M
+140345,Sadettin,Erbil,M
+140486,Halil,Ergün,M
+141000,Rosario,Errico,M
+141211,Maurice,Escande,M
+141373,Vicente (II),Escrivá,M
+141639,Ponce,Espino,M
+141909,Peter,Esser,M
+141950,Paul,Esswood,M
+142019,Jean,Estelle-Vaisset,M
+142132,Gary,Estrada,M
+142261,Sergio,Etcheverry,M
+142270,Eric,Etebari,M
+142306,Alphonse,Ethier,M
+142343,Jun,Eto,M
+142570,Bill (XI),Evans,M
+142720,Herbert,Evans,M
+142732,Jack (I),Evans,M
+142779,Lee (I),Evans,M
+142873,Robert (I),Evans,M
+143275,Dwight,Ewell,M
+143393,Irad,Eyal,M
+143397,Hannes,Eyber,M
+143399,Richard,Eybner,M
+143771,Franco,Fabrizi,M
+144200,William,Fairbanks,M
+144589,Peter (I),Falk,M
+144824,Jacques,Famery,M
+144966,George,Fant,M
+145029,Jeffrey,Faoro,M
+145050,Semyon,Farada,M
+145485,Art,Farmer,M
+145569,Alberto,Farnese,M
+145608,Matt,Farnsworth,M
+145617,Dustin,Farnum,M
+145618,Franklyn,Farnum,M
+145622,William,Farnum,M
+145672,Derek,Farr,M
+145682,Hugh,Farr,M
+145771,Howard,Farrell,M
+145810,Nicholas,Farrell,M
+146031,Antonello,Fassari,M
+146453,Marc,Favreau,M
+146472,Charles,Fawcett,M
+146532,Stéphane,Fay,M
+146774,Paul,Federico,M
+147175,Dragomir,Felba,M
+147281,Sebastian,Feldman,M
+147392,George,Felix,M
+147432,Norman,Fell,M
+147446,Tom,Felleghy,M
+147489,Rockliffe,Fellowes,M
+147566,William,Felton,M
+147640,Ji,Feng,M
+147747,Óscar,Fentanes,M
+147771,Mark,Fenton,M
+147860,Heino,Ferch,M
+147901,Patrick,Feren,M
+147946,Al,Ferguson,M
+148404,John,Fernside,M
+148537,Emilio (I),Fernández,M
+148657,Pedro (I),Fernández,M
+148755,Antonio,Ferrandis,M
+149127,Taumaturgo,Ferreira,M
+149191,Franco,Ferrer,M
+149382,Harry,Ferris,M
+149606,Stepin,Fetchit,M
+149854,Jimmy,Fidler,M
+149883,Bernd,Fiedler,M
+149935,George,Field,M
+150009,Gerald (II),Fielding,M
+150130,Robert,Fieldsteel,M
+150251,Dr. Charles R.,Figley,M
+150457,Astrogildo,Filho,M
+150589,Momir,Filipovic,M
+150604,Aleksandr,Filippenko,M
+150635,Sergei (I),Filippov,M
+150722,Al W.,Filson,M
+150878,Larry (I),Fine,M
+151073,James,Finlayson,M
+151107,Ned,Finley,M
+151498,Colin,Firth,M
+151672,Robert (I),Fischer,M
+151748,Steve,Fiset,M
+151891,George (I),Fisher,M
+152110,John,Fiske,M
+152216,Hans,Fitz,M
+152519,Jack,Fjeldstad,M
+152558,Herbert,Flack,M
+152755,Sean Patrick,Flanery,M
+152809,John,Flansburgh,M
+152957,Max,Fleischer,M
+153140,Robert,Flemyng,M
+153247,Kent,Fletcher,M
+153446,Timo,Flloko,M
+153744,Robert,Florey,M
+154064,Michael (XI),Flynn,M
+154126,Juan Diego,Flórez,M
+154130,Martin,Flörchinger,M
+154212,Stephen Patrick,Foery,M
+154672,Domingos Fernandes,Fonseca,M
+154952,Courtenay,Foote,M
+155048,Ralph,Forbes,M
+155149,Charles (II),Ford,M
+155201,Francis,Ford,M
+155203,Frank A.,Ford,M
+155224,Harrison (II),Ford,M
+155467,Franco,Foresta,M
+155644,Emanuele,Fornaro,M
+155692,José María,Forqué,M
+156059,Herbert,Fortier,M
+156244,Elith,Foss,M
+156453,Norman (I),Foster,M
+156649,George,Foundas,M
+156866,J.C.,Fowler,M
+156906,Scott,Fowler,M
+157005,George (I),Fox,M
+157039,John (II),Fox,M
+157298,Tassos,Fraghias,M
+157534,Anthony,Franciosa,M
+157789,Don,Francks,M
+157821,Curro,Franco,M
+157865,Juan Pablo,Franco,M
+157881,Pippo,Franco,M
+157955,Billy,Franey,M
+157988,Alois,Frank,M
+158014,Christian J.,Frank,M
+158060,J. Herbert,Frank,M
+158144,Dieter,Franke,M
+158175,Daine,Frankel,M
+158185,Ronald,Frankel,M
+158199,Sjaak,Franken,M
+158259,Blair (II),Franklin,M
+158352,Sidney (II),Franklin,M
+158690,Malcolm (II),Fraser,M
+158857,Robert,Frazer,M
+158895,Joe,Frazier,M
+158966,René,Fredensborg,M
+159047,Paulo,Frederico,M
+159149,Bert,Freed,M
+159365,Rob (I),Freeman,M
+159402,Paul,Frees,M
+159573,Ladislav,Frej,M
+159902,Patrick,Frey,M
+160393,Gerhard,Fries,M
+160590,Herbert,Fritsch,M
+160691,Sam,Froelich,M
+160700,Edggar,Frogg,M
+160720,Jürgen,Frohriep,M
+160813,Rafael,Frontaura,M
+161007,John,Fryatt,M
+161112,Patrick,Frédérich,M
+161207,Yongcai,Fu,M
+161209,Zhonggui,Fu,M
+161344,Carlos (II),Fuentes,M
+161534,Ippo,Fujikawa,M
+161548,Yu,Fujiki,M
+161554,Jun,Fujimaki,M
+161618,Kamatari,Fujiwara,M
+161999,Eiji,Funakoshi,M
+162197,Maks,Furijan,M
+162367,Arata,Furuta,M
+162471,Issei,Futamata,M
+162495,Mansaku,Fuwa,M
+162497,Herbert,Fux,M
+162722,Benno,Fürmann,M
+162833,Micha,Gabay,M
+163055,Gurgen,Gabrielyan,M
+163461,Michael,Gahr,M
+163848,John Kenneth,Galbraith,M
+164045,Alejandro (I),Galindo,M
+164456,Robert,Gallico,M
+164510,Edward,Gallner,M
+164745,Dirk,Galuba,M
+164954,Shalva,Gambashidze,M
+165004,Fred,Gamble,M
+165083,Damon,Gameau,M
+165193,Erle,Ganbac,M
+165295,Shivaji,Ganesan,M
+165297,Delhi,Ganesh,M
+165504,Leland,Gantt,M
+165556,Qi,Gao,M
+165568,Yalin,Gao,M
+165723,Gerhard,Garbers,M
+165886,Ernest M.,Garcia,M
+166125,Gael,García Bernal,M
+166198,Eliazar,García Jr.,M
+166255,Antonio,García Quijada,M
+166329,Alvaro Antonio,García,M
+166400,Fernando (IX),García,M
+166646,Carlos,Gardel,M
+166779,Buster,Gardner,M
+166978,Allen,Garfield,M
+167027,Frank,Gargani,M
+167102,Enzo,Garinei,M
+167191,Sergei,Garmash,M
+167410,Louis,Garrel,M
+167411,Maurice,Garrel,M
+167562,José Manuel,Garrido,M
+167848,William,Garwood,M
+167924,Rob,Garza,M
+168079,Luis (I),Gaspar,M
+168097,Gigi,Gaspari,M
+168137,Italo,Gasperini,M
+168173,Vittorio,Gassman,M
+168516,Peteris,Gaudins,M
+168783,John,Gavigan,M
+169045,Edmund,Gaynes,M
+169054,Jock,Gaynor,M
+169096,Sergei,Gazarov,M
+169239,Bud,Geary,M
+169296,George,Gebhardt,M
+169738,Clarence,Geldart,M
+169943,Yildirim,Gencer,M
+169951,Tesshô,Genda,M
+170388,Götz,George,M
+170394,Isaac,George,M
+170441,Neville,George,M
+170489,Voya,George,M
+170681,Carl,Gerard,M
+170787,Erich,Gerberding,M
+171106,Douglas,Gerrard,M
+171107,Frank,Gerrard,M
+171382,Dallen,Gettling,M
+171581,Krishna,Ghattamaneni,M
+171606,Hassan,Ghazi,M
+171685,Nicolai,Ghiaurov,M
+171847,Fosco,Giachetti,M
+171987,Petros,Giannakos,M
+172042,Beto,Gianola,M
+172383,Hoot,Gibson,M
+172526,Todd,Giebenhain,M
+172584,Heinz,Giese,M
+172604,Detlef,Gieß,M
+172672,Robert,Giggenbach,M
+172872,Billy (I),Gilbert,M
+172939,Henry,Gilbert,M
+172955,John (I),Gilbert,M
+173000,Richard (II),Gilbert,M
+173078,Benson,Gilchrist,M
+173607,William,Gillis,M
+173748,Ian (I),Gilmour,M
+173768,John,Gilpin,M
+173844,Raúl,Gimenez,M
+173974,Ike,Gingrich,M
+174102,Yannis,Gionakis,M
+174286,Mikhail,Gipsi,M
+174289,John,Gipson,M
+174464,Romeo,Giro,M
+174624,Kim,Gittings,M
+174981,Günter,Glaser,M
+175337,J. Frank,Glendon,M
+175715,Ilja,Glusgal,M
+176325,Dave,Goelz,M
+176457,Walt,Goggins,M
+176545,Gabriel,Goity,M
+177077,Frank,Goldsmith,M
+177214,Tony,Goldwyn,M
+177285,Maruthirao,Gollapudi,M
+177638,Richard,Gomez,M
+178102,Raul (I),Gonzalez,M
+178328,Federico (I),González,M
+178768,Cuba,Gooding,M
+178861,John (I),Goodman,M
+179034,Randy J.,Goodwin,M
+179122,Lester,Gopaoco,M
+179281,Bert,Gordon,M
+179346,Don (I),Gordon,M
+179355,Eddie (I),Gordon,M
+179380,Gerald (II),Gordon,M
+179407,Huntley,Gordon,M
+179410,J.J.,Gordon,M
+179434,Joel,Gordon,M
+179735,Michael,Goring,M
+179787,Charles (I),Gorman,M
+180052,Maarten,Goslins,M
+180224,Holger,Gotha,M
+180301,Charles,Gotthold,M
+180387,Hans-Dieter,Gotzmann,M
+180413,Stan,Goudge,M
+180536,Dominic,Gould,M
+180694,Olivier,Gourmet,M
+180777,Arun,Govil,M
+180842,Gibson,Gowland,M
+180894,Rafael,Goyri,M
+180969,Mike,Grabemeyer,M
+180979,Yossi,Graber,M
+181234,Peter (I),Graf,M
+181350,Currie,Graham,M
+181638,Thanasis,Grammenos,M
+181837,Francis J.,Grandon,M
+182237,Ken,Grantham,M
+182388,Regner,Grasten,M
+182447,Rojo,Grau,M
+182454,Konstantin,Graudus,M
+182747,George (I),Gray,M
+182962,Donald (I),Grayson,M
+183621,Tom (I),Green,M
+183877,Lorne,Greene,M
+184192,Wolfgang,Greese,M
+184281,Adam,Gregor,M
+184481,Ivo,Gregurevic,M
+184523,Michael,Greiling,M
+184678,Ludovít,Gresso,M
+184814,Wilson,Grey,M
+184836,Goran,Grgic,M
+185021,Frank (I),Griffin,M
+185169,Gordon (I),Griffith,M
+185588,Børge Møller,Grimstrup,M
+185695,Vyacheslav,Grishechkin,M
+185972,Iván,Grondona,M
+186786,Morten,Grunwald,M
+187155,Kit,Guard,M
+187177,Harry,Guardino,M
+187294,Nikolai,Gubenko,M
+187301,Reuben,Guberman,M
+187553,João Rui,Guerra da Mata,M
+187572,Danny,Guerra,M
+188292,Fernando,Guillén,M
+188368,Roberto,Guinar,M
+188680,David,Gulpilil,M
+188691,Isfandiyor,Gulyamov,M
+188767,Thomas,Gumpert,M
+189010,Wolfgang,Gunther,M
+189242,Yuri,Gurtovoy,M
+189305,Anatoli,Gushchin,M
+189550,Eddie,Gutierrez,M
+189707,Paul,Gutrecht,M
+190090,Hilmir Snær,Guðnason,M
+190134,Jack,Gwillim,M
+190392,Daniel,Gélin,M
+190440,Pierre,Gérard,M
+190696,Tito (I),Gómez,M
+190848,Adil,Güldürür,M
+190901,Orhan,Günsiray,M
+190955,Tanju,Gürsu,M
+191008,Jae-yeong,Ha,M
+191013,Myeong-jung,Ha,M
+191306,Michael,Habib,M
+191800,Mohamed Samir,Hafiz,M
+191954,Paul,Hagen,M
+192185,David (III),Hahn,M
+192310,Jean-Pierre,Haigneré,M
+192484,Igor,Hajdarhodzic,M
+192565,Fikret,Hakan,M
+193046,Charlie (I),Hall,M
+193159,Henry (I),Hall,M
+193248,Lindsay J.,Hall,M
+193295,Newton,Hall,M
+193441,Winter,Hall,M
+193463,Henry,Hallam,M
+193506,Roy,Halle,M
+193708,Johnny (I),Hallyday,M
+193730,Günther Maria,Halmer,M
+193860,Charles,Halton,M
+193869,Kaarlo,Halttunen,M
+193902,Stein Grieg (I),Halvorsen,M
+193987,Jun,Hamamura,M
+194164,Jalil,Hamid,M
+194217,Brian (I),Hamilton,M
+194348,Lloyd,Hamilton,M
+194358,Mark (IV),Hamilton,M
+194366,Murray (I),Hamilton,M
+194474,Harry,Hamlin,M
+194561,Jan,Hammenecker,M
+194978,So-ryong,Han,M
+195000,Özdemir,Han,M
+195314,A.K.,Hangal,M
+195884,Holger Juul,Hansen,M
+195905,Joachim,Hansen,M
+195964,Martin (I),Hansen,M
+196062,Wilbert,Hansen,M
+196157,Mark,Hanson,M
+196291,Jaromír,Hanzlík,M
+196462,Carl,Harbaugh,M
+196671,Neil,Hardin,M
+196814,Harry,Hardt,M
+196817,Mickey,Hardt,M
+196837,Gary,Hardwick,M
+196924,Oliver,Hardy,M
+196928,Peter (II),Hardy,M
+197180,Scott (I),Harlan,M
+197511,Karl,Harper,M
+197835,Brad (I),Harris,M
+197902,Dean,Harris,M
+198170,Peter (I),Harris,M
+198242,Sam (I),Harris,M
+198529,Steve (VI),Harrison,M
+198596,John,Harron,M
+198671,Al (I),Hart,M
+198693,Bret,Hart,M
+198885,William S.,Hart,M
+199370,Herk,Harvey,M
+199795,Emil,Hass Christensen,M
+199829,Jalaluddin,Hassan,M
+199858,Khosro,Hassanzadeh,M
+199954,Bob (I),Hastings,M
+200135,Philip,Hatfield,M
+200318,William,Hauber,M
+200399,Tore,Hauge,M
+200487,Ullrich (I),Haupt,M
+200649,Václav,Havel,M
+200747,Alois,Havrilla,M
+200808,Bob,Hawke,M
+201040,David (I),Hawthorne,M
+201122,Sessue,Hayakawa,M
+201299,Anthony (II),Hayes,M
+201305,Billy (I),Hayes,M
+201530,Graham,Hayman,M
+201698,James,Hayter,M
+201994,Myron,Healey,M
+202143,Ernest T.,Hearne,M
+202310,Pedro,Hebenstreit,M
+202325,Henry,Hebert,M
+202422,Andrew (I),Heckler,M
+202786,O.P.,Heggie,M
+202817,Luke,Heian,M
+202924,Hannu,Heikinheimo,M
+203098,Heikki,Heino,M
+203309,Mahmut,Hekimoglu,M
+203339,Thomas,Helbock,M
+203542,Jack (I),Heller,M
+203587,Ludo,Hellinx,M
+203992,Wade,Hemsworth,M
+204111,Dell,Henderson,M
+204280,Ben (I),Hendricks Jr.,M
+204373,N.E.,Hendrix,M
+204468,Barry Shabaka,Henley,M
+204551,Brian,Hennessey,M
+204610,Doug (I),Henning,M
+204660,Paul,Henreid,M
+205061,Jim (I),Henson,M
+205128,Jang-kang,Heo,M
+205178,Cecil M.,Hepworth,M
+205191,Helge,Herala,M
+205564,Charles,Herman,M
+205762,William B.,Herms,M
+205861,Jonathan,Hernandez,M
+206254,Marcel,Herrand,M
+206425,Hugo,Herrestrup,M
+206542,Johannes,Herrschmann,M
+206601,Jean,Hersholt,M
+206698,John,Hertzler,M
+207036,Erkki,Hetta,M
+207054,Kálmán,Hetényi,M
+207150,Alan,Hewitt,M
+207195,Sean,Hewitt,M
+207224,Alfred,Hewston,M
+207542,Alfred,Hickman,M
+207547,Charles (I),Hickman,M
+207747,Bokuzen,Hidari,M
+207748,Tonpei,Hidari,M
+207817,Jussi,Hietikko,M
+208114,Gil,Hilario,M
+208115,Jhong,Hilario,M
+208179,Dieter,Hildebrandt,M
+208428,James (II),Hill,M
+208581,Terence,Hill,M
+208918,Jan,Himilsbach,M
+209160,Shohei (I),Hino,M
+209194,Ole,Hinsch,M
+209372,Sei,Hiraizumi,M
+209415,Mitsuru,Hirata,M
+209461,John,Hirohata,M
+209873,Avner,Hizkiyahu,M
+209894,Keve,Hjelm,M
+209962,Gregory,Hlady,M
+209982,Vladimír,Hlavatý,M
+210393,Alejandro,Hodara,M
+210442,Douglas,Hodge,M
+211173,Danny (I),Hogan,M
+211214,Michael (II),Hogan,M
+211333,Christopher,Hogwood,M
+211344,Pooi Dung,Hoh,M
+211647,Thomas,Holding,M
+211694,Ticky,Holgado,M
+212062,Dietrich,Hollinderbäumer,M
+212294,Kai,Holm,M
+212464,Gilbert,Holmes,M
+212789,Hans,Holt,M
+212792,Jack (I),Holt,M
+213268,Paavo,Honkamäki,M
+213427,99,Hooker,M
+213606,Barry,Hope,M
+213803,Rolf,Hoppe,M
+214627,Szabolcs (I),Horváth,M
+214640,Dominique,Horwitz,M
+215145,Arthur,Housman,M
+215387,Charles (I),Howard,M
+215791,Cliff,Howell,M
+215888,Frankie,Howerd,M
+216103,Takanobu,Hozumi,M
+216110,Jan,Hrabeta,M
+216196,Aleksandar,Hrnjakovic,M
+216242,Rudolf (I),Hrusínský,M
+216696,Franz,Hubler,M
+216766,Thomas,Hudak,M
+217585,Michael,Hui,M
+217712,Eric,Hull,M
+217966,Orral,Humphrey,M
+218082,Sammo,Hung Kam-Bo,M
+218656,György,Hunyadkürthy,M
+218676,Pekka,Huotari,M
+218850,Paul (I),Hurst,M
+219067,Zakir (I),Hussain,M
+219383,Philippe,Huttenlocher,M
+219533,Fedja van,Huêt,M
+219556,Gyeon,Hwang,M
+219557,Hae,Hwang,M
+219791,Kristian,Hynek,M
+219848,Olaf,Hytten,M
+220043,Jan,Hårstad,M
+220162,Werner,Höhne,M
+220265,Laus,Høybye,M
+220313,Hadi,Hün,M
+220328,Keld,Hüttel,M
+220341,Antonio,Iaccarino,M
+220615,Manuel 'Flaco',Ibáñez,M
+220891,Hisashi,Igawa,M
+220961,Miguel Ángel,Iglesias,M
+221115,Hikaru,Ijyuin,M
+221403,Sándor,Illyés,M
+221647,Nino,Imparato,M
+221695,Fred,Imscher,M
+221696,Hiroshi,Imura,M
+221773,Thomas H.,Ince,M
+221950,Jess,Ingerslev,M
+221975,Nicholas,Ingham,M
+222054,Lloyd (I),Ingraham,M
+222329,John,Instone,M
+222608,Steve (I),Ireland,M
+222669,Alberto,Irizar,M
+222806,George (I),Irving,M
+222921,Bryan,Irzyk,M
+223149,Eitaro,Ishibashi,M
+223917,Miljko,Ivanovic,M
+224298,Shigeru,Izumiya,M
+224734,Gordon,Jackson,M
+224937,Orin,Jackson,M
+225148,Ernst,Jacobi,M
+225149,Frederik,Jacobi,M
+225361,Johan,Jacobsen,M
+225718,Hannes,Jaenicke,M
+225767,Javed,Jaffrey,M
+225769,Saeed,Jaffrey,M
+225798,Kongara,Jaggaiah,M
+225815,Gajanan,Jagirdar,M
+226186,Francisco,Jambrina,M
+226755,Bud,Jamison,M
+226932,Dong-hwi,Jang,M
+226945,Hun,Jang,M
+226953,Il-do,Jang,M
+227013,Dusan,Janicijevic,M
+227087,Les,Jankey,M
+227279,Wolfgang,Jansen,M
+227326,P.J.C.,Janssen,M
+227701,Tomasz,Jarosz,M
+227703,Czeslaw,Jaroszynski,M
+227935,José,Jaspe,M
+228392,Rupert,Jee,M
+228714,Rudolf,Jelínek,M
+228751,Thanasis,Jeneralis,M
+228956,Max,Jenner,M
+229262,Niels Henning,Jensen,M
+229413,Jae-yeong,Jeong,M
+229432,Seong-mo,Jeong,M
+229584,Siegfried,Jerusalem,M
+229875,Han Jae,Ji,M
+229946,Huang,Jiao,M
+230311,Min-gi,Jo,M
+230319,Sang-gu,Jo,M
+230321,Seon-mok,Jo,M
+230332,Yeong-nam,Jo,M
+230405,Edward,Jobson,M
+230466,Fat,Joe,M
+230525,Lou,Joffred,M
+230568,Reimar,Johannes,M
+230593,Anders,Johannisson,M
+231020,Tom,Johnsen,M
+231087,Arthur V.,Johnson,M
+231166,Brian (XVI),Johnson,M
+231190,Buster (I),Johnson,M
+231294,Daniel P.,Johnson,M
+231913,Richard (I),Johnson,M
+232073,Tommy (I),Johnson,M
+232092,Van (I),Johnson,M
+232253,Lorimer,Johnston,M
+232694,Bobby (III),Jones,M
+232759,Chuck (I),Jones,M
+233104,Jeff (XI),Jones,M
+233471,Ray (X),Jones,M
+233736,Andre de,Jong,M
+233875,Cemale,Jora,M
+234104,Sid,Jordan,M
+234263,Colin,Jorre,M
+234658,Raymond,Jourdan,M
+234774,Ricardo,Joven,M
+234977,Jin-mo,Ju,M
+234980,Naishe,Ju,M
+234984,Seon-tae,Ju,M
+235092,Charles,Judels,M
+235110,Mike (I),Judge,M
+235277,Rupert,Julian,M
+235306,Jean-Luc,Julien,M
+235440,Cho Sin,Jung,M
+235448,Doo-hong,Jung,M
+235468,Kurt A.,Jung,M
+235514,Georg,Jungemann,M
+235615,Ture,Junttu,M
+236384,Preben,Kaas,M
+236452,Uri,Kabiri,M
+236789,Hidetoshi,Kageyama,M
+236995,Satyanarayana,Kaikala,M
+237263,Kriton,Kalaitzides,M
+237520,Armand,Kaliz,M
+238204,Dai,Kanai,M
+238505,Jun'ichi,Kanemaru,M
+238518,Suphi,Kaner,M
+238571,Moon,Kang,M
+238902,Ramanatha Sastri,Kapilavayi,M
+239049,Kamal,Kapoor,M
+239074,Raj (I),Kapoor,M
+239094,Shakti (I),Kapoor,M
+239098,Shashi (I),Kapoor,M
+239174,Atif,Kaptan,M
+240342,Vladimir,Kashpur,M
+240357,Safak,Kasim,M
+240420,Christoph,Kasperkovitz,M
+240587,Abdulkhair,Kasymov,M
+240763,Masaya,Kato,M
+240803,Shingo,Katori,M
+240959,Evan H.,Katz,M
+241074,Takayuki,Katô,M
+241188,Sam (I),Kaufman,M
+241423,Hiroshi,Kawaguchi,M
+241525,Keizo,Kawasaki,M
+241835,Kostas,Kazakos,M
+242479,Harry,Keenan,M
+243028,Hiram,Keller,M
+243733,Klaus,Kelterborn,M
+243877,Matty (I),Kemp,M
+244127,Vladimir,Kenigson,M
+244622,Crauford,Kent,M
+244715,Hulusi,Kentmen,M
+245028,Georges,Kern,M
+245064,Reginald,Kernan,M
+245287,Norman,Kerry,M
+246104,Marco,Khan,M
+246138,Rashid (I),Khan,M
+246410,Aleksandr,Kheruvimov,M
+246892,Vinzenz,Kiefer,M
+247211,Richard,Kiley,M
+247481,Dong-hyeon,Kim,M
+247557,In-kwon,Kim,M
+247558,In-mun,Kim,M
+247589,Jin Kyu,Kim,M
+247656,Kyu-chul,Kim,M
+247717,Sang Jung,Kim,M
+247727,Se Jun,Kim,M
+247730,Se-yeong,Kim,M
+247760,Seung-woo,Kim,M
+247987,Kaneta,Kimotsuki,M
+248006,Ichirô,Kimura,M
+248269,Charles (I),King,M
+248329,Eddie (I),King,M
+248341,Encke,King,M
+248453,John C.,King,M
+248763,Frank,Kingsley,M
+249080,Güven,Kirac,M
+249106,Bruno,Kirby,M
+249113,David (I),Kirby,M
+249214,Dieter,Kirchlechner,M
+249507,Trond,Kirkvaag,M
+249710,László I.,Kish,M
+249982,Yuki,Kitazume,M
+250165,Saulius,Kizas,M
+250241,Kjell,Kjær,M
+250583,Edwin,Klein,M
+251264,Vladimír,Klos,M
+251357,Brian,Klugman,M
+251484,Budd,Knapp,M
+252021,Pavel,Knorr,M
+252132,John (II),Knox,M
+252635,Andrew,Kochergin,M
+253739,Esref,Kolçak,M
+253932,Raavi,Kondala Rao,M
+254046,Hyeong-jin,Kong,M
+255644,Anatoli,Kotenyov,M
+255762,Werner,Kotzerke,M
+256106,Bohumil,Kovar,M
+256405,John,Kozeluh,M
+256546,Zoltán,Kozák,M
+256918,Jirí,Krampol,M
+257695,Josef,Kricenský,M
+257855,Suri,Krishnamma,M
+257982,Jan Tore,Kristoffersen,M
+258851,Hardy,Krüger Jr.,M
+258917,Bong-seo,Ku,M
+259537,Arvo,Kukumägi,M
+259690,Jarl,Kulle,M
+260304,Yasuaki,Kurata,M
+260374,Rei,Kurita,M
+260506,Bill,Kurtis,M
+260660,Barry,Kushner,M
+261046,Igor,Kvasha,M
+261155,Stanislaw,Kwasniak,M
+261167,Nico,Kwerreveld,M
+261617,Markku,Köngäs,M
+261758,Detlev,Kügow,M
+262016,Jean-Claude,La Marre,M
+262699,Elio,Laciar,M
+263275,Karl,Lagerfeld,M
+263572,Ethan,Laidlaw,M
+263797,Gary,Lakes,M
+263836,Predrag,Lakovic,M
+264002,Ching-Ying,Lam,M
+264712,Charles,Lampkin,M
+265142,Cullen,Landis,M
+265841,Frank,Langella,M
+265937,Jørgen,Langhelle,M
+266480,Andrzej,Lapicki,M
+266689,Joe,Lara,M
+267053,Pierre,Larquey,M
+267085,Jorge,Larrea,M
+267315,Darrell,Larson,M
+267765,Sven,Lasta,M
+268118,Dick (II),Lau,M
+268279,Richard,Lauffen,M
+269103,Walter,Law,M
+269396,Mark Christopher,Lawrence,M
+269595,Reginald,Lawson,M
+269627,Jack,Lawton,M
+270359,Jean,Le Scouarnec,M
+271080,Héctor,Lechuga,M
+271578,Dae-yeob,Lee,M
+271647,Douglas,Lee,M
+271730,Gu-sun,Lee,M
+271792,Hyeong-jun,Lee,M
+271797,Iain,Lee,M
+271828,Jae-won,Lee,M
+271945,Ju-il,Lee,M
+271946,Ju-seok,Lee,M
+272014,Kyeong-il,Lee,M
+272019,Kyeong-yeong,Lee,M
+272161,Randy (II),Lee,M
+272297,Seung-hyeon (II),Lee,M
+272307,Shin-jae,Lee,M
+272343,Sun-jae,Lee,M
+273322,Dorian,Leigh Parker,M
+273783,Philippe,Lemaire,M
+274634,Robert Z.,Leonard,M
+274799,Yevgeni,Leonov,M
+274930,Vladimir,Lepko,M
+275015,Chete,Lera,M
+275202,Philippe (I),Leroy,M
+275243,Gunther,Lesage,M
+275678,Jørgen,Leth,M
+276210,Richard (I),Levin,M
+276902,George J.,Lewis,M
+277113,Ralph (I),Lewis,M
+277265,Jerry,Lewkowitz,M
+277519,Bruce,Li,M
+277523,Chaoyou,Li,M
+278282,Uldis,Lieldidz,M
+278432,Miguel (I),Ligero,M
+278716,Chang Jung (I),Lim,M
+279117,E.K.,Lincoln,M
+279349,Einar,Linden,M
+279391,Erwin,Linder,M
+279395,Max (I),Linder,M
+279749,Charles Frederick,Lindsley,M
+280067,John,Linnell,M
+280314,Enrique,Liporace,M
+281035,Linian,Liu,M
+281076,Wenzhi,Liu,M
+281133,Vasili,Livanov,M
+281219,Jack (I),Livingston,M
+282151,J.P.,Lockney,M
+282649,Gerd,Lohmeyer,M
+282652,Peter,Lohmeyer,M
+283127,Tom,London,M
+283435,Henry B.,Longhurst,M
+283519,Greg (I),Longstreet,M
+283557,Harry (I),Lonsdale,M
+283559,Michael (I),Lonsdale,M
+284819,Willard,Louis,M
+285631,Fernando,Loza,M
+286106,Wilfred,Lucas,M
+286663,Bela,Lugosi,M
+286801,Fernando,Luján,M
+286879,Jorge,Luke,M
+287933,Cisco,Lutu,M
+288623,Eddie,Lyons,M
+288756,Bert,Lytell,M
+288788,L. Rogers,Lytton,M
+288809,Stanislav,Lyubshin,M
+289084,Carlos,López Moctezuma,M
+289357,Andreas,Löffel,M
+289528,Martin,Lüttge,M
+289569,Aziz,M. Osman,M
+289570,Balaiah,M.,M
+289604,Geon-su,Ma,M
+290067,Charles L.,MacDonald,M
+290121,J. Farrell,MacDonald,M
+290167,Mike,MacDonald,M
+290261,Fred,Mace,M
+290475,Edson,Machado,M
+290785,Bobby,Mack,M
+291146,Arthur,Mackley,M
+291970,Francisco,Madrigano,M
+292074,Luís,Madureira,M
+292989,Bill,Maher,M
+293031,Wally,Maher,M
+293499,Harry,Mainhall,M
+294224,Zygmunt,Malanowicz,M
+294322,Fred,Malcolm,M
+294360,Franz,Maldacea,M
+294450,Josh,Malek,M
+294482,Albert,Malera,M
+294501,Pierre,Malet,M
+295152,Leo D.,Maloney,M
+295741,Navneeth,Mandavilli,M
+295916,James,Mane Jr.,M
+296451,Hank (I),Mann,M
+297828,Fredric,March,M
+298006,Elio,Marchi,M
+299533,Goran,Markovic,M
+299757,Bob (I),Marley,M
+299816,Nathan,Marlow,M
+300290,Eddie,Marrero,M
+301395,Francis (III),Martin,M
+302549,Pierre,Martot,M
+302994,José Luis (III),Martínez,M
+303049,Nacho,Martínez,M
+303105,Ubaldo,Martínez,M
+303322,Joseph,Marzano,M
+303373,Zul Huzaimy,Marzuki,M
+303852,Charles (I),Mason,M
+303871,Dean E.,Mason,M
+304747,Ignacio,Mateo,M
+304910,Hans,Matheson,M
+305430,Hiroki,Matsukata,M
+305797,Jamisin,Matthews,M
+306062,Vili,Matula,M
+306122,Mikhail,Matveyev,M
+306734,Carmen,Maxwell,M
+307294,George,Mayo,M
+308453,Roy L.,McCardell,M
+309532,Joel,McCrea,M
+309674,Philo,McCullough,M
+309845,George,McDermott,M
+310882,Albert,McGovern,M
+310992,Walter,McGrail,M
+311831,Sunny Jim,McKeen,M
+312010,Robert (I),McKenzie,M
+312304,Craig (I),McLachlan,M
+312993,Rick (II),McMurray,M
+314286,Pen,Medina,M
+314498,Ralph,Meeker,M
+315359,Eligio,Melfor,M
+315631,William,Mellor,M
+316792,Ángel,Menéndez,M
+316862,Jo Eric,Mercado,M
+316918,Jack,Mercer,M
+317286,Mikhail,Merkulov,M
+318131,Ken,Metcalfe,M
+318433,Adolfo,Meyer,M
+318503,Hans (I),Meyer,M
+319868,Hikaru,Midorikawa,M
+320168,George,Mihaita,M
+320219,Tatsuya,Mihashi,M
+320681,Pablo,Milanés,M
+320763,Branislav-Ciga,Milenkovic,M
+320972,Nikola,Milic,M
+320995,Srboljub,Milin,M
+321729,Marvin (I),Miller,M
+321899,Rube,Miller,M
+322257,Frank (VI),Mills,M
+322528,Zoran (II),Milosavljevic,M
+322604,John,Miltern,M
+323176,Michael J.,Minor,M
+323978,Jorge,Mistral,M
+324304,Millard,Mitchell,M
+324433,Robert,Mitchum,M
+324575,Minoru,Mitsuyasu,M
+324824,Kazufumi,Miyazawa,M
+324914,Michitaro,Mizushima,M
+325815,Pyotr,Mojseyev,M
+326063,Enrique,Molina,M
+326181,Antonio,Molino Rojo,M
+326219,Kurt,Moll,M
+326299,Patrick,Molloy,M
+326486,Prince Rainier of,Monaco,M
+327248,Monte (I),Montague,M
+327737,Guillermo,Montesinos,M
+327863,Ray (I),Montgomery,M
+328015,Edouard,Montoute,M
+328314,Paul (I),Mooney,M
+328748,Owen,Moore,M
+329078,Louis,Morabito,M
+329381,Lee (I),Moran,M
+330143,Nanni,Moretti,M
+330269,Charles (IV),Morgan,M
+330333,Frank (II),Morgan,M
+330342,Gene (I),Morgan,M
+330368,Jack (III),Morgan,M
+330510,Terence (II),Morgan,M
+330630,Masayuki (I),Mori,M
+330677,Jim,Moriarty,M
+332033,Cyril,Morton,M
+333238,Frank,Mouris,M
+333766,Zoltán,Mucsi,M
+333904,Dan,Muggia,M
+334190,Ilkka,Mukkala,M
+334291,Jack,Mulhall,M
+334714,Lewis,Mumford,M
+334861,Roberto,Munguía,M
+335228,Masahiro,Muramatsu,M
+335398,Henry,Murdock,M
+335735,Joe (IV),Murphy,M
+337193,Norbert A.,Myles,M
+337221,Thanasis,Mylonas,M
+337541,László,Méhes,M
+337550,Georges,Méliès,M
+338142,Osami,Nabe,M
+338431,T.S.,Nagabharana,M
+338718,Tihamér,Nagy,M
+338957,Tatsuya,Nakadai,M
+339416,Kung-won,Nam,M
+339543,Rama Rao Taraka,Nandamuri,M
+340087,Clarence,Nash,M
+340483,Yosuke,Natsuki,M
+341645,Gabriel,Nehrebecki,M
+341671,Hans,Neie,M
+341720,James (I),Neill,M
+342320,Jan,Nemec,M
+344383,Mike (I),Nichols,M
+345490,Yevgeni,Nikitin,M
+345592,Dragan (I),Nikolic,M
+345942,Thorsten,Nindel,M
+347285,Henri,Norbert,M
+348139,Frank,Notaro,M
+348181,Günther,Notthoff,M
+348392,Ramon,Novarro,M
+348432,Tom,Novembre,M
+348507,Nancho,Novo,M
+348648,Wlodzimierz,Nowak,M
+349156,Paavo,Nurmi,M
+349836,Santos,Núñez,M
+349952,Dave (I),O'Brien,M
+350369,Edwin (II),O'Connor,M
+351239,Edward (I),O'Neal,M
+351395,James (II),O'Neill,M
+351767,Peter (I),O'Toole,M
+351989,Michael,Oberlander,M
+352110,Claudio,Obregón,M
+352275,Uwe,Ochsenknecht,M
+352873,Ji-ho,Oh,M
+352875,Ji-myeong,Oh,M
+353191,Masumi,Okada,M
+353385,Esat,Oktrova,M
+354062,Guy,Oliver,M
+354370,Alberto (I),Olmedo,M
+354480,Art,Olsen,M
+355226,Michael,Ontkean,M
+356307,Silvio,Orsini,M
+356439,Artie,Ortego,M
+356455,Frank,Orth,M
+356670,Polo (II),Ortín,M
+357255,Richard,Osterweil,M
+357823,Ernest,Ouedraogo,M
+358574,Yusuf,Ozbek,M
+359324,Alfred,Pagano,M
+360116,Amol,Palekar,M
+360625,Ricardo,Palmerola,M
+360677,Dan,Palmquist,M
+360755,Eduardo,Palomo,M
+361265,J. Michael,Pank,M
+361612,Nicholas,Pap,M
+361770,Dionyssis,Papayannopoulos,M
+362678,No-shik (I),Park,M
+362714,Shin-yang,Park,M
+362732,Won-sang,Park,M
+362892,Doug,Parker,M
+363480,Fran,Parra,M
+363853,Venkateswara Rao,Paruchuri,M
+364336,Dirch,Passer,M
+364615,Bhasker,Patel,M
+364935,Kevin,Patrick,M
+366460,Luciano de,Pazos,M
+367546,Kinsey,Peile,M
+368456,D.A.,Pennebaker,M
+369551,James,Perine,M
+371585,Vidas,Petkevicius,M
+371951,Cedomir,Petrovic,M
+372458,Jose,Peña Pepet,M
+373146,Eddie (I),Phillips,M
+373382,Tim (III),Phillips,M
+373756,Edward,Piccin,M
+374131,Joseph,Piekarski,M
+374425,Willy,Pierre,M
+374611,Roger,Pigaut,M
+375091,Paul,Pinceloup,M
+375182,Harold,Pineda,M
+375471,Arend,Pinoy,M
+375475,Gordon,Pinsent,M
+375860,Stefan,Piriov,M
+376297,Florian,Pittis,M
+376584,Ramon,Placencia,M
+376897,Rudolf,Platte,M
+377755,Gérard,Poirier,M
+378285,'Snub',Pollard,M
+379510,Danilo,Poprzen,M
+380059,Sascha,Posch,M
+380291,Victor,Potel,M
+380408,Dennis,Potter,M
+380981,Rutger,Powell,M
+381622,Matías,Prats,M
+382380,Dennis (I),Price,M
+382929,Joost,Prinsen,M
+382975,Herbert,Prior,M
+384099,Jesús,Puente,M
+385697,Guoqiang,Qu,M
+387085,Georges,Rached,M
+387382,Miomir,Radivojevic,M
+387424,Zoran,Radmilovic,M
+387758,Mark,Raffety,M
+387852,Mohamed,Rageb,M
+388657,Michael (I),Ralph,M
+389008,P.,Ramlee,M
+389438,Hani,Ramzi,M
+389541,Raúl,Ramírez,M
+390044,Czeslaw,Raniszewski,M
+391335,Anatoli,Ravikovich,M
+391445,Herbert,Rawlinson,M
+391470,Antonio,Raxel,M
+391885,Fred,Raynham,M
+392053,Stephen (I),Rea,M
+393102,Oliver (I),Reed,M
+393928,Hal,Reid,M
+394922,Omer,Renaud,M
+395713,Matt,Revel,M
+395859,Bruno,Rey,M
+396320,Marcellas,Reynolds,M
+397986,Larry (III),Richardson,M
+398011,Miles,Richardson,M
+399799,Frank,Ripploh,M
+399861,Arthur,Riscoe,M
+400257,Gary,Rivas,M
+400350,Ariel,Rivera,M
+400712,Nikos,Rizos,M
+400827,Bert,Roach,M
+400936,Jason,Robards,M
+405117,Alberto,Rojas,M
+405331,Joao,Roldan,M
+407616,Modi,Rosenfeld,M
+407793,Kadri,Roshi,M
+411228,Marcelo,Ruggero,M
+412141,Frank (II),Russell,M
+413618,Jérémie,Rénier,M
+414783,Diego,Saenz,M
+415484,Eric,Sakach,M
+415568,Nagatoshi,Sakamoto,M
+416466,Rashid,Salleh,M
+416989,William,Salyers,M
+418575,Christian,Sandström,M
+418641,Assetou,Sanfo,M
+419018,José (I),Santamaría,M
+419416,Charles (II),Santore,M
+420812,Sasa,Satlan,M
+421116,Rodney,Saulsberry,M
+422041,Philip,Sayer,M
+422053,Michael G.,Sayers,M
+422079,Syd,Saylor,M
+422282,Michael,Scalzo,M
+425956,Dwight,Schultz,M
+426185,Harry,Schumm,M
+429179,Jared,Seide,M
+429606,Khaled,Selim,M
+429981,Jean-Marie,Semille,M
+430034,Larry (I),Semon,M
+430103,Ali,Sen,M
+430164,Azlee,Senario,M
+430349,Mack,Sennett,M
+430641,Rade,Serbedzija,M
+431107,Henri,Serre,M
+431689,Hugh,Sexton,M
+431851,Semih,Sezerli,M
+433363,Brinsley,Shaw,M
+433861,John (I),Sheehan,M
+433916,Will E.,Sheerer,M
+434445,Jean (I),Shepherd,M
+435494,Yuki,Shimoda,M
+435509,Sab,Shimono,M
+435559,Min-cheol,Shin,M
+435571,Sung-il,Shin,M
+435576,Yeong-gyun,Shin,M
+436470,George,Shrouder,M
+436512,Yaoxuan,Shu,M
+437302,Bernard,Siegel,M
+438693,Heekura,Simba,M
+439607,Bartleby,Simpson,M
+440566,Richard (I),Sinnott,M
+442849,Phillips,Smalley,M
+443387,Brian Thomas,Smith,M
+444429,Pete (I),Smith,M
+445687,Eduardo,Sobral,M
+445984,Andrei,Sokolov,M
+447504,Antonio,Sorrentino,M
+448121,Dan,Southworth,M
+448264,Kurt,Sowinetz,M
+452242,Jason,Statham,M
+452532,Marshall,Stedman,M
+454114,John (I),Steppling,M
+456907,Dimitri,Storoge,M
+459444,Bunta,Sugawara,M
+461019,Grady (I),Sutton,M
+461095,Gus,Suvall,M
+461211,Shinichi (II),Suzuki,M
+462856,József,Szarvas,M
+463656,Salvador,Sánchez,M
+463973,Kim Wilsborg,Sørensen,M
+464347,Ljuba (I),Tadic,M
+464825,Naozumi,Takahashi,M
+465054,Naoto,Takenaka,M
+465488,Sanjay,Talwar,M
+466163,Hajime,Tanimoto,M
+466940,Erol,Tas,M
+467400,Arthur,Tavares,M
+468629,John (II),Teeple,M
+470189,Walter,Tetley,M
+471171,Robert,Thomae,M
+471173,Panagiotis,Thomaidis,M
+471455,Henry (I),Thomas,M
+471607,Lowell,Thomas,M
+471986,Andy (I),Thompson,M
+472016,Bob (VIII),Thompson,M
+473450,Kartal,Tibet,M
+473591,James,Tien,M
+475003,Harry,Todd,M
+475317,Lee,Tokar,M
+476142,Mario,Tomás,M
+476864,Juan de Dios,Torquemada,M
+477335,Luis,Tosar,M
+478731,Arthur,Treacher,M
+480699,Yin,Tse,M
+481485,Emilio,Tuero,M
+482066,Sam,Turich,M
+482533,Ben,Turpin,M
+483508,Halil,Türkmen,M
+484188,Tatsuo,Umemiya,M
+485055,Paul (I),Usher,M
+487552,Dries,van der Post,M
+488096,Fred,Van Kuyk,M
+488289,Stijn,Van Opstael,M
+490681,Horacio,Vega,M
+491003,Jose,Velazco,M
+492553,Viktor,Verzhbitsky,M
+493366,Ivica,Vidovic,M
+495224,Venmani,Vishnu,M
+496627,Theodore,von Eltz,M
+499155,Adriano,Wajskol,M
+499788,Johnnie (I),Walker,M
+499934,Ron (II),Walker,M
+500481,Jimmy,Wallington,M
+501842,Delbert,Ward,M
+501947,Larry (I),Ward,M
+502798,Bryant,Washburn,M
+504858,Frank (I),Weed,M
+506827,Jan,Werich,M
+508701,Kirke,White,M
+509175,Orval,Whitlegs,M
+509220,Gayne,Whitman,M
+509261,James,Whitmore,M
+509325,Frank,Whitson,M
+512774,Si,Wills,M
+514734,William,Wisher Jr.,M
+518296,Yi,Wu,M
+518599,Peter (II),Wylie,M
+519130,Min,Xu,M
+519131,Ming (II),Xu,M
+520016,Shaolin,Yang,M
+521556,Chick,York,M
+522563,Jang-hyeon,Yu,M
+523086,Hatjako,Yzangi,M
+523736,Ahmed,Zaki,M
+524221,Christos,Zannidea,M
+525397,Demetrio Julian,Zeran,M
+525777,Hengduo,Zhao,M
+525978,Doskhan,Zholzhaksynov,M
+526161,Kresimir,Zidaric,M
+527648,Humberto,Zurita,M
+527652,Rafael,Zurita,M
+527688,Milos,Zutic,M
+527974,Miguel Ángel,Álvarez 'El Men',M
+528971,Kristyn,Abbadini,F
+530845,Arlen,Aguayo-Stewart,F
+531564,Filiz,Akin,F
+532630,Joan,Alexander,F
+533253,Beth (II),Allen,F
+534938,Willeke van,Ammelrooy,F
+535165,Elena,Anaya,F
+536419,Sandrine,André,F
+536641,Lela,Anggraini,F
+536784,Etti,Ankri,F
+536930,Malena,Anousaki,F
+537376,Tsuru,Aoki,F
+539085,Jessica,Aronoff,F
+543807,Sonja,Ball,F
+545168,Edda,Barends,F
+546334,Clara,Barry,F
+548062,Daniela,Baz,F
+550807,Tina,Benko,F
+553057,Vedah,Bertram,F
+554300,Andrée,Bill,F
+555920,Nida,Blanca,F
+558845,Maria de,Booy,F
+560744,Dorothy,Boyd,F
+561851,Sammi,Branson,F
+562433,Mirela,Brekalo,F
+562609,Evelyn,Brent,F
+563256,Dr.,Brink,F
+566397,Nathalie,Buffat,F
+568644,Daniela,Bäder,F
+569391,Darian,Caine,F
+571457,Constança,Capdeville,F
+574234,Amira,Casar,F
+576397,Mine,Cezzar,F
+576857,Dany,Chamoun,F
+576925,Tanya,Champoux,F
+577411,Kiera,Chaplin,F
+577867,Debbie,Chasan,F
+578093,Dilli,Chaudhary,F
+579156,Julia,Child,F
+579289,Windy,Chindyana,F
+579302,Li,Ching,F
+579585,Eun-hie,Choi,F
+579623,Nam-hyeon,Choi,F
+582855,Ann,Codee,F
+586369,Alexis,Corey,F
+591171,Jeanne,d'Alcy,F
+591640,Alejandra,Da Passano,F
+592821,Laurie,Dane,F
+593104,Thelma,Daniels,F
+593972,Kelly,Daugherty,F
+595927,Isabel,de Castro,F
+601741,Sri,Dewi,F
+603671,Alice,Dixson,F
+607579,Lola,Dueñas,F
+609375,Florence,Dye,F
+611530,Athar,El-Hakim,F
+611872,Evangelina,Elizondo,F
+615316,Bessie,Eyton,F
+615718,Sydney,Fairbrother,F
+618997,Christine,Fetzer,F
+623616,Marina,Foïs,F
+625333,Gertrud,Fridh,F
+626661,Jeanne,Fusier-Gir,F
+631387,Anastasiya,Georgiyevskaya,F
+634056,Michèle,Gleizer,F
+637340,Anabel,Gracia,F
+638706,Staci,Greason,F
+639591,Charlotte,Gretoft,F
+641733,Sophie,Guillemin,F
+642111,Nina,Gunnarsdottir,F
+645659,Ji-hye (I),Han,F
+649366,Miki (II),Hayashi,F
+649686,Wendy,Haynes,F
+650415,Chris,Hegedus,F
+650469,Mette (I),Heiberg,F
+651303,Grace (I),Henderson,F
+653809,Jessica (III),Hill,F
+653848,Lethia,Hill,F
+655504,Jennifer,Holder,F
+657665,Annelise,Hovmand,F
+658922,Gladys,Hulette,F
+659251,Linda,Hunt,F
+664172,Showkar,Janaki,F
+664606,Camille,Japy,F
+664989,Vanessa,Jay,F
+665765,Eva,Jenícková,F
+669073,Jeung-nyeo,Ju,F
+671124,Kazuko,Kano,F
+673656,Crystal,Keith,F
+675146,Deborah,Kerr,F
+676236,A-ryeong,Kim,F
+677049,Rose,King,F
+678505,Anja,Kling,F
+686198,Teri,Lally,F
+686683,Madiana,Lamouret,F
+688474,Katya,Larsen,F
+691567,Ji-hyeon,Lee,F
+693059,Jacqueline,Lemaire,F
+694175,Mimi,Lesseos,F
+694648,Amy,Levitan,F
+698595,Phyllis (I),Logan,F
+700560,Louise,Lovely,F
+701674,Adelina,Luna,F
+703010,Helle,Lyster,F
+703423,Elina,Löwensohn,F
+703754,June,MacCloy,F
+703990,Surya,MacGregor,F
+704821,Rikee,Madoff,F
+706642,Vesna,Malohodzic,F
+709456,Yvonne,Mario,F
+711609,Ksenija,Martinov,F
+714276,Ann,May,F
+715100,Andrea,McArdle,F
+716434,Reba,McEntire,F
+720103,Monique,Mercure,F
+724983,Silvia,Mocci,F
+733749,Jeong-im,Nam,F
+736531,Ping,Ni,F
+737513,Dolores,Nikolis,F
+737997,Irina,Nizina,F
+741272,Maureen,O'Sullivan,F
+745562,Zsa Zsa,Padilla,F
+746502,Patricia (I),Palmer,F
+748034,Barbara,Parkins,F
+748303,Lee (I),Parry,F
+750021,Pandora,Peaks,F
+752043,Katherine (I),Perry,F
+752183,Caisa,Persson,F
+758291,Beulah,Poynter,F
+761020,Mae,Questel,F
+761424,Ae,Ra,F
+762075,Nezha,Rahile,F
+766111,Yexiang,Ren,F
+766314,Claudia,Renner,F
+766600,Lynette,Retief,F
+768699,Diana,Rigg,F
+772391,Ruth,Roland,F
+777792,Leyla,Saadi,F
+778405,Inge,Sagild,F
+778542,Laure,Sainclair,F
+781188,Sandrine,Santos,F
+789759,Hallie,Shepherd,F
+795559,Jamie,Smith-Jackson,F
+797926,Britney,Spears,F
+799144,Grace,Stafford,F
+799761,Nina,Star,F
+803960,Zdena,Studenková,F
+804027,Sharman,Sturgess,F
+804470,Jean,Suhas,F
+806361,Melanie,Sykes,F
+812023,Sandrine,Thomas,F
+814138,Jamie,Tolbert,F
+814218,Betsy,Toll,F
+815001,Diana,Torres,F
+816434,Irene,Tripod,F
+819133,Margaret,Undiel,F
+822085,Suzane,Vanina,F
+824678,Silvia,Vich,F
+828060,Tracey,Wadey,F
+833710,Mrs. Thomas,Whiffen,F
+835070,Olivia (I),Wilde,F
+835145,Julie,Wildman,F
+836252,Holly,Willoughby,F
+837182,Alice,Winocour,F
+837941,Maria-Debora,Wolf,F
+843629,Cécile,Zervudacki,F

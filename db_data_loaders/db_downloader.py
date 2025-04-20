@@ -1,6 +1,7 @@
 import mysql.connector
 import pandas as pd
 import os
+from utils import Path_Handler as ph
 
 # Connection settings
 db_names: list[str] = [
@@ -9,7 +10,13 @@ db_names: list[str] = [
     "CORA",
 ]
 
-for db_name in db_names:
+csv_folder_paths: list = [
+    ph.imdb_csv_folder_PATH,
+    ph.financial_csv_folder_PATH,
+    ph.cora_csv_folder_PATH,
+]
+
+for db_name, output_folder in zip(db_names, csv_folder_paths):
     config = {
         "host": "relational.fel.cvut.cz",
         "port": 3306,
@@ -19,7 +26,7 @@ for db_name in db_names:
     }
 
     # Output folder
-    output_folder = f"{db_name}_csv"
+    # output_folder = f"{db_name}_csv"
     os.makedirs(output_folder, exist_ok=True)
 
     try:
