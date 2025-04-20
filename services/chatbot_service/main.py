@@ -39,18 +39,22 @@ class QueryGenerator:
             else:
                 return f"Generate a MongoDB query (find/aggregate/lookup). Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
         else:
+            # Add MySQL 8.0.32 tag to every SQL prompt
+            mysql_header = "Use MySQL version 8.0.32 syntax. Do not use features unsupported in this version.\n"
+
             if intent == "insert":
-                return f"Convert to SQL INSERT. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
+                return f"{mysql_header}Convert the following to a valid SQL INSERT query. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
             elif intent == "update":
-                return f"Convert to SQL UPDATE. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
+                return f"{mysql_header}Convert the following to a valid SQL UPDATE query. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
             elif intent == "delete":
-                return f"Convert to SQL DELETE. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
+                return f"{mysql_header}Convert the following to a valid SQL DELETE query. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
             elif intent == "schema":
-                return f"List tables and fields. Schema:\n{schema}"
+                return f"{mysql_header}List tables and fields from this schema:\n{schema}"
             elif intent == "data":
-                return f"Generate SQL to return 5 rows. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
+                return f"{mysql_header}Generate a SQL query to return 5 sample rows. Schema:\n{schema}\nInstruction: {nl_question}\nSQL:"
             else:
-                return f"Convert to optimized SQL query. Schema:\n{schema}\nQuestion: {nl_question}\nSQL:"
+                return f"{mysql_header}Convert the following natural language question into an optimized MySQL 8.0.32-compatible SQL query. Schema:\n{schema}\nQuestion: {nl_question}\nSQL:"
+
 
     def extract_info(self, nl_query):
         dbms_match = re.search(r"\b(mysql|mongodb|sql)\b", nl_query, re.IGNORECASE)
@@ -61,12 +65,14 @@ class QueryGenerator:
         dbms_type = (
             "sql" if dbms_raw in ["mysql", "sql"]
             else "mongo" if dbms_raw == "mongodb"
-            else "sql"  # Default to SQL if not specified
+            else "sql"
         )
 
         db_name = db_match.group(1).lower() if db_match else None
         table_name = table_match.group(1).lower() if table_match else None
-        cleaned_query = re.sub(r"\b(mysql|mongodb|sql|CORA|financial|imdb_ijs)\b", "", nl_query, flags=re.IGNORECASE).strip()
+
+        # ⛔️ Do NOT clean the query – send it as-is to the LLM
+        cleaned_query = nl_query.strip()
 
         return dbms_type, db_name, table_name, cleaned_query
 
@@ -76,32 +82,45 @@ class QueryGenerator:
             dbms_type, db_name, table_name, cleaned_query = self.extract_info(nl_query)
             if not db_name:
                 return None, None, {"error": "Missing DB name (e.g., CORA, financial, imdb_ijs)."}
+
+            # ⬇️ Handle schema intent directly without calling LLM
+            if intent == "schema":
+                if not table_name:
+                    # Return just table names
+                    table_names = list(self.schema_loader.schemas.get(db_name, {}).keys())
+                    return dbms_type, db_name, {"tables": table_names}
+                else:
+                    related_schema = self.schema_loader.schemas.get(db_name, {}).get(table_name)
+                    if related_schema:
+                        field_lines = [
+                            line.strip("- ").strip()
+                            for line in related_schema.strip().splitlines()
+                            if "-" in line
+                        ]
+                        return dbms_type, db_name, {"fields": field_lines}
+                    else:
+                        return dbms_type, db_name, {"error": f"No schema found for table '{table_name}'"}
+
             schema = self.schema_loader.get_schema(db_name, table_name)
             prompt = self.build_prompt(cleaned_query, schema, intent, dbms_type)
             print("\n📤 PROMPT SENT TO LLM:\n", prompt)
             response = requests.post(self.api_url, json={"model": self.model, "prompt": prompt, "stream": False})
             response.raise_for_status()
             response_text = response.json().get("response", "").strip()
-            # Remove LLM explanations and markdown formatting if present
+
             code_block = re.search(r"```(?:sql)?\n(.*?)```", response_text, re.DOTALL)
             if code_block:
                 response_text = code_block.group(1).strip()
             else:
                 response_text = re.sub(r"(?i)^Here is .*?SQL query:\n", "", response_text).strip().split("Explanation:")[0].strip()
+
             print("\n📥 RAW RESPONSE FROM LLM:\n", response_text)
+
             if dbms_type == "sql" and db_name:
                 response_text = re.sub(r"\bdb\.([a-zA-Z_][a-zA-Z0-9_]*)", f"{db_name}.\\1", response_text)
-                        # Only return if it's a valid query (starts with SELECT/INSERT/UPDATE/DELETE etc)
-            valid_sql_start = re.match(r"(?i)^(select|insert|update|delete|with|create|drop|alter|truncate)", response_text.strip())
-            if intent == "schema" and not valid_sql_start:
-                # Beautify: show only relevant table (if table_name provided)
-                if table_name:
-                    table_block = re.search(rf"\*\*{table_name}\*\*.*?(?=\*\*|$)", response_text, re.DOTALL)
-                    if table_block:
-                        cleaned_info = table_block.group(0).strip()
-                        return dbms_type, db_name, {"info": cleaned_info}
-                return dbms_type, db_name, {"info": response_text}
+
             return dbms_type, db_name, response_text
+
         except Exception as e:
             return None, None, {"error": f"Failed to generate query: {str(e)}"}
 
