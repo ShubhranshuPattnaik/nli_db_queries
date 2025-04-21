@@ -3,6 +3,7 @@ import json
 import requests
 from services.chatbot_service.schema_loader import SchemaLoader
 from services.chatbot_service.instruction_loader import InstructionLoader
+# from services.chatbot_service.query_generator import QueryGenerator
 
 
 class QueryGenerator:
@@ -188,4 +189,6 @@ class QueryGenerator:
 
 
 schema_loader = SchemaLoader()
-query_generator = QueryGenerator(schema_loader)
+instruction_loader = InstructionLoader()
+query_generator = QueryGenerator(schema_loader, instruction_loader)
+
