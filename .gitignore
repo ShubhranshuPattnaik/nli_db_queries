@@ -31,3 +31,4 @@ node_modules/
 # Other things you want to exclude
 *.bak
 db_data_loaders/*data.sql
+db-info.txt

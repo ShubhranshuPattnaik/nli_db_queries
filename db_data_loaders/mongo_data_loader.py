@@ -91,7 +91,8 @@ client = MongoClient("mongodb://localhost:27017/")
 # Loop through and import each CSV
 for folder_path in base_path:
     for file_path in os.listdir(folder_path):
-        db_name = str(os.path.basename(folder_path))[:-4]
+        db_name = str(os.path.basename(folder_path)).split(sep="_")[0].lower()
+        db_name += "_ijs" if db_name == "imdb" else ""
         collection_name = os.path.splitext(file_path)[0]
         db = client[db_name]
         full_path = os.path.join(folder_path, file_path)
@@ -100,7 +101,9 @@ for folder_path in base_path:
             print(f"⚠️ Collection `{collection_name}` exists. Dropping it.")
             db.drop_collection(collection_name)
 
-        print(f"⏳ Loading {file_path} into collection `{collection_name}`")
+        print(
+            f"⏳ Loading {file_path} into collection `{collection_name}` of `{db_name}`"
+        )
 
         df = pd.read_csv(full_path)
         records = df_to_typed_dicts(df)
@@ -109,7 +112,7 @@ for folder_path in base_path:
         if records:
             db[collection_name].insert_many(records)
             print(
-                f"✅ Inserted {len(records)} documents into `{collection_name}`"
+                f"✅ Inserted {len(records)} documents into `{collection_name}` of `{db_name}`"
             )
 
     print("🎉 All files imported with correct types.")

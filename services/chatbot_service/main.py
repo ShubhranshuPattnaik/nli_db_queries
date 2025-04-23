@@ -2,15 +2,19 @@ import re
 import json
 import requests
 from services.chatbot_service.schema_loader import SchemaLoader
+from services.chatbot_service.mongo_schema_loader import MongoSchemaLoader
 from services.chatbot_service.instruction_loader import InstructionLoader
 # from services.chatbot_service.query_generator import QueryGenerator
 
 
 class QueryGenerator:
-    def __init__(self, schema_loader, instruction_loader):
+    def __init__(
+        self, sql_schema_loader, mongo_schema_loader, instruction_loader
+    ):
         self.model = "llama3"
         self.api_url = "http://localhost:11434/api/generate"
-        self.schema_loader: SchemaLoader = schema_loader
+        self.sql_schema_loader: SchemaLoader = sql_schema_loader
+        self.mongo_schema_loader: MongoSchemaLoader = mongo_schema_loader
         self.instruction_loader: InstructionLoader = instruction_loader
         print(f"✅ Using {self.model} via local Ollama")
 
@@ -23,6 +27,9 @@ class QueryGenerator:
                 "show schema",
                 "describe table",
                 "what collections",
+                "list all collections",
+                "list collections",
+                "list the collections",
             ],
             "data": [
                 "sample data",
@@ -45,19 +52,17 @@ class QueryGenerator:
     ):
         if dbms_type == "mongo":
             if intent == "insert":
-                return f"{instructions}\n\nConvert to MongoDB insertOne query. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
+                return f"{instructions}\n\nTask: Convert the instruction below into a valid MongoDB `insertOne` query using the provided schema. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB Query:"
             elif intent == "update":
-                return f"{instructions}\n\nConvert to MongoDB updateOne query. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
+                return f"{instructions}\n\nConvert the instruction below into a valid MongoDB `updateOne` query using the provided schema. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB Query:"
             elif intent == "delete":
-                return f"{instructions}\n\nConvert to MongoDB deleteOne query. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
+                return f"{instructions}\n\nConvert the instruction below into a valid MongoDB `deleteOne` query using the provided schema. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB Query:"
             elif intent == "schema":
-                return (
-                    f"List collections and fields from this schema:\n{schema}"
-                )
+                return f"Summarize the collection names and the meta data about the fields present in them of the collections  asked in instruction. using data from {schema}. instruction: {nl_question}"
             elif intent == "data":
-                return f"{instructions}\n\nGenerate a MongoDB query to return 5 sample rows. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
+                return f"{instructions}\n\nWrite a MongoDB query to return 5 sample documents from the appropriate collection. Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB Query:"
             else:
-                return f"{instructions}\n\nConvert to a single line MongoDB query ( with either find/aggregate/lookup methods). Schema:\n{schema}\nInstruction: {nl_question}\nMongoDB:"
+                return f"{instructions}\n\nConvert the instruction into a **single-line MongoDB query** using either `find()` or `aggregate()`.\nUse `$lookup` only if the instruction requires fields from multiple collections.\nSchema:\n{schema}\nInstruction: {nl_question}\nIMPORTANT: Do not hardcode any ID values like director_id or movie_id. If a name is given, use a subquery or lookup to find the ID.\nMongoDB Query:"
         else:
             # Add MySQL 8.0.32 tag to every SQL prompt
             mysql_header = "Use MySQL version 8.0.32 syntax. Do not use features unsupported in this version.\n"
@@ -120,33 +125,77 @@ class QueryGenerator:
 
             # ⬇️ Handle schema intent directly without calling LLM
             if intent == "schema":
-                if not table_name:
-                    # Return just table names
-                    table_names = list(
-                        self.schema_loader.schemas.get(db_name, {}).keys()
-                    )
-                    return dbms_type, db_name, {"tables": table_names}
-                else:
-                    related_schema = self.schema_loader.schemas.get(
-                        db_name, {}
-                    ).get(table_name)
-                    if related_schema:
-                        field_lines = [
-                            line.strip("- ").strip()
-                            for line in related_schema.strip().splitlines()
-                            if "-" in line
-                        ]
-                        return dbms_type, db_name, {"fields": field_lines}
+                if dbms_type == "sql":
+                    if not table_name:
+                        # Return just table names
+                        table_names = list(
+                            self.sql_schema_loader.schemas.get(
+                                db_name, {}
+                            ).keys()
+                        )
+                        return dbms_type, db_name, {"tables": table_names}
                     else:
+                        related_schema = self.sql_schema_loader.schemas.get(
+                            db_name, {}
+                        ).get(table_name)
+                        if related_schema:
+                            field_lines = [
+                                line.strip("- ").strip()
+                                for line in related_schema.strip().splitlines()
+                                if "-" in line
+                            ]
+                            return dbms_type, db_name, {"fields": field_lines}
+                        else:
+                            return (
+                                dbms_type,
+                                db_name,
+                                {
+                                    "error": f"No schema found for table '{table_name}'"
+                                },
+                            )
+
+                elif dbms_type == "mongo":
+                    if not table_name:
+                        # Return just collection names
+                        collection_names = list(
+                            self.mongo_schema_loader.schema.get(
+                                db_name, {}
+                            ).keys()
+                        )
                         return (
                             dbms_type,
                             db_name,
-                            {
-                                "error": f"No schema found for table '{table_name}'"
-                            },
+                            {"collections": collection_names},
                         )
+                    else:
+                        related_schema: str = (
+                            self.mongo_schema_loader.schema.get(
+                                db_name, {}
+                            ).get(table_name)
+                        )
+                        if related_schema:
+                            field_lines = [
+                                line.strip("- ").strip()
+                                for line in related_schema.strip().splitlines()
+                                if "->" in line or ":" in line
+                            ]
+                            return dbms_type, db_name, {"fields": field_lines}
+                        else:
+                            return (
+                                dbms_type,
+                                db_name,
+                                {
+                                    "error": f"No schema found for collection '{table_name}'"
+                                },
+                            )
 
-            schema = self.schema_loader.get_schema(db_name, table_name)
+            schema = (
+                self.sql_schema_loader.get_schema(db_name, table_name)
+                if db_name == "sql"
+                else self.mongo_schema_loader.get_schema(
+                    db_name, collection_name=table_name
+                )
+            )
             instructions = self.instruction_loader.mongo_instructions
             prompt = self.build_prompt(
                 cleaned_query, schema, intent, dbms_type, instructions
@@ -188,7 +237,9 @@ class QueryGenerator:
             return None, None, {"error": f"Failed to generate query: {str(e)}"}
 
 
-schema_loader = SchemaLoader()
+sql_schema_loader = SchemaLoader()
+mongo_schema_loader = MongoSchemaLoader()
 instruction_loader = InstructionLoader()
-query_generator = QueryGenerator(schema_loader, instruction_loader)
-
+query_generator = QueryGenerator(
+    sql_schema_loader, mongo_schema_loader, instruction_loader
+)
