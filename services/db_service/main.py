@@ -17,7 +17,7 @@ class QueryService:
                 query = demo.get("query")
 
                 # print("⏳ Simulating LLM response for prompt...")
-                time.sleep(30)
+                time.sleep(7)
 
                 if dbms_type == "sql":
                     result = sql_executor.execute_query(query, db_name=db_name)

@@ -100,7 +100,7 @@ class QueryGenerator:
             else "sql"  # Default to SQL if not specified
         )
 
-        db_name = db_match.group(1).lower() if db_match else None
+        db_name = db_match.group(1) if db_match else None
         table_name = table_match.group(1).lower() if table_match else None
 
         # ⛔️ Do NOT clean the query – send it as-is to the LLM
@@ -159,7 +159,7 @@ class QueryGenerator:
                         # Return just collection names
                         collection_names = list(
                             self.mongo_schema_loader.schema.get(
-                                db_name, {}
+                                db_name.lower(), {}
                             ).keys()
                         )
                         return (
@@ -170,7 +170,7 @@ class QueryGenerator:
                     else:
                         related_schema: str = (
                             self.mongo_schema_loader.schema.get(
-                                db_name, {}
+                                db_name.lower(), {}
                             ).get(table_name)
                         )
                         if related_schema:
@@ -193,7 +193,7 @@ class QueryGenerator:
                 self.sql_schema_loader.get_schema(db_name, table_name)
                 if db_name == "sql"
                 else self.mongo_schema_loader.get_schema(
-                    db_name, collection_name=table_name
+                    db_name.lower(), collection_name=table_name
                 )
             )
             instructions = self.instruction_loader.mongo_instructions

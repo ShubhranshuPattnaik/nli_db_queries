@@ -21,6 +21,18 @@ DEMO_QUERIES = {
         "db_name": "financial",
         "query": "SELECT l.status, AVG(l.payments) AS avg_payment FROM loan l GROUP BY l.status;",
     },
+    # // New entry: List tables in CORA
+    "-What tables are there in the CORA database?": {
+        "dbms_type": "sql",
+        "db_name": "CORA",
+        "query": "SHOW TABLES;",
+    },
+    # // New entry: Insert a new paper
+    "-In MYSQL, Add a new paper with ID 2025 and class label AI to the CORA paper table.": {
+        "dbms_type": "sql",
+        "db_name": "CORA",
+        "query": "INSERT INTO paper (paper_id, class_label) VALUES (2025, 'AI');",
+    },
     # === Schema Exploration ===
     "-list collections in the imdb_ijs mongodb database.": {
         "dbms_type": "mongo",
@@ -120,7 +132,7 @@ DEMO_QUERIES = {
             district_id: 10
         })""",
     },
-    "-update the gender of client with client_id 99999 to 'M' in financial mongodb database.": {
+    "-update the gender of client Jane Doe to 'M' in financial mongodb database.": {
         "dbms_type": "mongo",
         "db_name": "financial",
         "query": """db.client.updateOne(
@@ -128,7 +140,7 @@ DEMO_QUERIES = {
             { $set: { gender: "M" }}
         )""",
     },
-    "-delete the client with client_id 99999 from financial mongodb database.": {
+    "-delete the client Jane Doe from financial mongodb database.": {
         "dbms_type": "mongo",
         "db_name": "financial",
         "query": """db.client.deleteOne({ client_id: 99999 })""",
